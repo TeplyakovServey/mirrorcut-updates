@@ -17,7 +17,7 @@ import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 STATE_DIR_NAME = "_mirrorcut_state"
 INSTALLATION_JSON = "installation.json"
@@ -106,6 +106,32 @@ def compare_versions(a: str, b: str) -> int:
     return 0
 
 
+def _pump_qt_if_available() -> None:
+    """Чтобы длинные ожидания при проверке raw URL не «замораживали» заставку / Qt."""
+    try:
+        from PyQt5.QtCore import QEventLoop
+        from PyQt5.QtWidgets import QApplication
+
+        app = QApplication.instance()
+        if app is not None:
+            app.processEvents(QEventLoop.AllEvents, 80)
+    except Exception:
+        pass
+
+
+def _interruptible_sleep(seconds: float) -> None:
+    """Короткие куски sleep + processEvents — иначе GUI выглядит зависшим на десятки секунд."""
+    if seconds <= 0:
+        return
+    end = time.monotonic() + seconds
+    while True:
+        remain = end - time.monotonic()
+        if remain <= 0:
+            break
+        time.sleep(min(0.05, remain))
+        _pump_qt_if_available()
+
+
 def _http_get_bytes(url: str, timeout: float = 60.0) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": "MirrorCut-Update/1.0"})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -145,22 +171,30 @@ def _http_get_bytes_manifest_once(url: str, timeout: float) -> bytes:
 
 
 def _http_get_bytes_manifest_with_retries(
-    url: str, *, attempts: int, pause_sec: float, timeout: float
+    url: str,
+    *,
+    attempts: int,
+    pause_sec: float,
+    timeout: float,
+    wait_status: Optional[Callable[[str], None]] = None,
 ) -> bytes:
     last_exc: Optional[BaseException] = None
-    for i in range(max(1, attempts)):
+    n = max(1, attempts)
+    for i in range(n):
+        if wait_status is not None and i > 0:
+            wait_status("Загрузка манифеста: попытка %s из %s (CDN GitHub raw может отвечать 404)…" % (i + 1, n))
         try:
             return _http_get_bytes_manifest_once(url, timeout)
         except urllib.error.HTTPError as ex:
             last_exc = ex
-            if ex.code == 404 and i + 1 < attempts:
-                time.sleep(pause_sec)
+            if ex.code == 404 and i + 1 < n:
+                _interruptible_sleep(pause_sec)
                 continue
             raise
         except (urllib.error.URLError, TimeoutError, OSError) as ex:
             last_exc = ex
-            if i + 1 < attempts:
-                time.sleep(pause_sec)
+            if i + 1 < n:
+                _interruptible_sleep(pause_sec)
                 continue
             raise
     if last_exc:
@@ -168,7 +202,9 @@ def _http_get_bytes_manifest_with_retries(
     raise RuntimeError("manifest: не удалось загрузить")
 
 
-def _http_get_bytes_manifest(url: str, timeout: float = 30.0) -> bytes:
+def _http_get_bytes_manifest(
+    url: str, timeout: float = 30.0, wait_status: Optional[Callable[[str], None]] = None
+) -> bytes:
     """
     Загрузка manifest.json по HTTPS.
     raw.githubusercontent.com после push часто отвечает 404, пока CDN не обновится — несколько попыток;
@@ -184,16 +220,22 @@ def _http_get_bytes_manifest(url: str, timeout: float = 30.0) -> bytes:
     is_raw_github = host == "raw.githubusercontent.com"
     attempts = 20 if is_raw_github else 3
     pause = 1.4 if is_raw_github else 0.35
+    if wait_status is not None:
+        wait_status("Проверка обновлений: загрузка манифеста…")
     try:
-        return _http_get_bytes_manifest_with_retries(u, attempts=attempts, pause_sec=pause, timeout=timeout)
+        return _http_get_bytes_manifest_with_retries(
+            u, attempts=attempts, pause_sec=pause, timeout=timeout, wait_status=wait_status
+        )
     except urllib.error.HTTPError as ex:
         if ex.code != 404 or not is_raw_github:
             raise
         alt = _github_raw_url_to_github_com_raw(u)
         if not alt:
             raise
+        if wait_status is not None:
+            wait_status("Пробуем запасной URL github.com/…/raw/…")
         return _http_get_bytes_manifest_with_retries(
-            alt, attempts=8, pause_sec=0.45, timeout=timeout
+            alt, attempts=8, pause_sec=0.45, timeout=timeout, wait_status=wait_status
         )
 
 
@@ -458,10 +500,13 @@ def apply_manifest(
     return True, "Обновление до %s установлено. Перезапустите программу." % to_version
 
 
-def check_and_apply_updates_interactive(parent=None) -> bool:
+def check_and_apply_updates_interactive(
+    parent=None, *, wait_status: Optional[Callable[[str], None]] = None
+) -> bool:
     """
     Сравнить локальную версию с активной в БД; при необходимости скачать manifest_url и применить.
     Вызывается до окна логина (run.py) или с родителем-сплэшем.
+    wait_status — подпись на заставке во время ожидания CDN (не блокировать UI).
     Возвращает True, если нужен перезапуск (успешное обновление).
     """
     try:
@@ -487,7 +532,7 @@ def check_and_apply_updates_interactive(parent=None) -> bool:
         return False
 
     try:
-        raw = _http_get_bytes_manifest(url, timeout=30.0)
+        raw = _http_get_bytes_manifest(url, timeout=30.0, wait_status=wait_status)
         manifest = _load_manifest_from_bytes(raw)
     except urllib.error.HTTPError as ex:
         from PyQt5.QtWidgets import QMessageBox
