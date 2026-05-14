@@ -154,7 +154,7 @@ class LoginDialog(QDialog):
             parent,
             Qt.FramelessWindowHint | Qt.Window | Qt.WindowStaysOnTopHint,
         )
-        self.setWindowTitle("Вход в систему!")
+        self.setWindowTitle("Вход в систему")
         self.setObjectName("LoginDialogRoot")
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         self._user = None
