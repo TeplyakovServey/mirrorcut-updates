@@ -9,8 +9,8 @@
     },
     {
       "rel_path": "MAIN_PROJECT/update_client.py",
-      "sha256": "54c850c596bf2dbbec24a0aa7f05e257aa8813fec8882c0e8e83cb5b3be1589c",
-      "size": 29938,
+      "sha256": "869b8ebb4fddbbb25b1dc8982f5c2049752f2af95be436707fdf6cd6e15e857b",
+      "size": 29173,
       "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.7/files/MAIN_PROJECT/update_client.py"
     },
     {
