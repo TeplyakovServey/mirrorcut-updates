@@ -9,14 +9,14 @@
     },
     {
       "rel_path": "MAIN_PROJECT/update_client.py",
-      "sha256": "83027a6ef1abe806827bc37b1d1357b850c06be83df9ddfbead69f76c4534e3a",
-      "size": 16438,
+      "sha256": "8b666b20caba8749f485897c7d6808ecdf487aa2064437b88b9ece532ae914f3",
+      "size": 19479,
       "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.1/files/MAIN_PROJECT/update_client.py"
     },
     {
       "rel_path": "db/models.py",
-      "sha256": "56a6b3fa002f23bccadc5f12594903fce972b708e6e55549ba75715b93d4eacb",
-      "size": 395327,
+      "sha256": "ae35c008a9dd24b7ae57d76791110a95f3f29e3fe9b22d139c5c35411671ea57",
+      "size": 395455,
       "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.1/files/db/models.py"
     }
   ],

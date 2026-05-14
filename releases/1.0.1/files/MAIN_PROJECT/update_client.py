@@ -434,6 +434,100 @@ def check_and_apply_updates_interactive(parent=None) -> bool:
     return False
 
 
+_RELEASE_NOTES_DISMISSED_KEY = "release_notes_dismissed_for"
+
+
+def get_release_notes_dismissed_for(install_root: Optional[str] = None) -> str:
+    root = install_root or get_install_root()
+    p = os.path.join(_state_dir(root), INSTALLATION_JSON)
+    if not os.path.isfile(p):
+        return ""
+    try:
+        with open(p, encoding="utf-8") as f:
+            data = json.load(f)
+        return (data.get(_RELEASE_NOTES_DISMISSED_KEY) or "").strip()
+    except Exception:
+        return ""
+
+
+def set_release_notes_dismissed_for(install_root: Optional[str] = None, version: str = "") -> None:
+    root = install_root or get_install_root()
+    sd = _state_dir(root)
+    os.makedirs(sd, exist_ok=True)
+    p = os.path.join(sd, INSTALLATION_JSON)
+    data: Dict[str, Any] = {}
+    if os.path.isfile(p):
+        try:
+            with open(p, encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            data = {}
+    data[_RELEASE_NOTES_DISMISSED_KEY] = (version or "").strip()
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def maybe_show_release_notes(parent=None) -> None:
+    """
+    Один раз после обновления: если локальная версия = активной в БД и есть release_notes_url,
+    показать окно заметок, пока пользователь не закрыл для этой версии.
+    """
+    try:
+        from db import models as db_models
+
+        from ui.release_notes_preview_dialog import ReleaseNotesPreviewDialog
+    except Exception:
+        return
+
+    install_root = get_install_root()
+    local_v = read_install_version(install_root)
+    try:
+        row = db_models.get_active_desktop_release("mirrorcut")
+    except Exception:
+        return
+    if not row:
+        return
+    db_v = (row.get("version") or "").strip()
+    if not db_v or local_v != db_v:
+        return
+    if get_release_notes_dismissed_for(install_root) == local_v:
+        return
+
+    mj = row.get("manifest_json")
+    if mj is None:
+        return
+    if isinstance(mj, str):
+        try:
+            mj = json.loads(mj)
+        except Exception:
+            return
+    if not isinstance(mj, dict):
+        return
+    notes_url = (mj.get("release_notes_url") or "").strip()
+    if not notes_url:
+        return
+
+    try:
+        raw = _http_get_bytes(notes_url, timeout=25.0)
+        data = json.loads(raw.decode("utf-8"))
+    except Exception:
+        return
+    html = (data.get("html") or "").strip()
+    if not html:
+        return
+    bg = ReleaseNotesPreviewDialog.validate_hex(str(data.get("canvas_bg") or ""), "#1e3a5f")
+    base = notes_url.rsplit("/", 1)[0] + "/"
+    dlg = ReleaseNotesPreviewDialog(
+        parent,
+        html,
+        bg,
+        notes_base_url=base,
+        frameless=True,
+    )
+    dlg.exec_()
+    set_release_notes_dismissed_for(install_root, local_v)
+
+
 def login_version_summary() -> str:
     """Одна строка для экрана входа: только локальная версия (без запросов к БД)."""
     return "Версия %s" % read_install_version()

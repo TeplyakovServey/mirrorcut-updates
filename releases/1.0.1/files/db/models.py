@@ -9442,10 +9442,13 @@ def upsert_active_desktop_release(
                 "UPDATE mirror_desktop_app_release SET active = FALSE WHERE channel = %s",
                 (ch,),
             )
+            mj = manifest_json
+            if isinstance(mj, dict):
+                mj = json.dumps(mj, ensure_ascii=False)
             cur.execute(
                 """
                 INSERT INTO mirror_desktop_app_release (channel, version, manifest_url, manifest_json, active)
-                VALUES (%s, %s, %s, %s, TRUE)
+                VALUES (%s, %s, %s, CAST(%s AS jsonb), TRUE)
                 """,
-                (ch, ver, url, manifest_json),
+                (ch, ver, url, mj),
             )
