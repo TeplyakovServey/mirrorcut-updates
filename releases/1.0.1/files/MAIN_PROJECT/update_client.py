@@ -375,7 +375,8 @@ def apply_manifest(
 
 def check_and_apply_updates_interactive(parent=None) -> bool:
     """
-    После логина: сравнить версию с БД, при необходимости скачать manifest_url и применить.
+    Сравнить локальную версию с активной в БД; при необходимости скачать manifest_url и применить.
+    Вызывается до окна логина (run.py) или с родителем-сплэшем.
     Возвращает True, если нужен перезапуск (успешное обновление).
     """
     try:
@@ -403,6 +404,23 @@ def check_and_apply_updates_interactive(parent=None) -> bool:
     try:
         raw = _http_get_bytes(url, timeout=30.0)
         manifest = _load_manifest_from_bytes(raw)
+    except urllib.error.HTTPError as ex:
+        from PyQt5.QtWidgets import QMessageBox
+
+        if ex.code == 404:
+            txt = (
+                "В базе указана версия %s, но файл манифеста по ссылке не найден (404).\n\n"
+                "Опубликуйте в mirrorcut-updates каталог releases/%s/ (manifest.json) "
+                "или исправьте manifest_url в таблице mirror_desktop_app_release.\n\n"
+                "Вход в программу без обновления."
+                % (remote_v, remote_v)
+            )
+            if parent is not None:
+                QMessageBox.information(parent, "Обновление", txt)
+            return False
+        if parent is not None:
+            QMessageBox.warning(parent, "Обновление", "Не удалось загрузить манифест:\n%s" % ex)
+        return False
     except Exception as ex:
         from PyQt5.QtWidgets import QMessageBox
 
