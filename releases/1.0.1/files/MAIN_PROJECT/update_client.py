@@ -112,6 +112,91 @@ def _http_get_bytes(url: str, timeout: float = 60.0) -> bytes:
         return resp.read()
 
 
+def _github_raw_url_to_github_com_raw(url: str) -> Optional[str]:
+    """Запасная ссылка: github.com/owner/repo/raw/ref/path (иногда доступна при 404 на raw.githubusercontent.com)."""
+    from urllib.parse import urlparse
+
+    u = (url or "").strip()
+    try:
+        p = urlparse(u)
+        if (p.netloc or "").lower() != "raw.githubusercontent.com":
+            return None
+        parts = [x for x in (p.path or "").strip("/").split("/") if x]
+        if len(parts) < 4:
+            return None
+        owner, repo, ref = parts[0], parts[1], parts[2]
+        rest = "/".join(parts[3:])
+        return "https://github.com/%s/%s/raw/%s/%s" % (owner, repo, ref, rest)
+    except Exception:
+        return None
+
+
+def _http_get_bytes_manifest_once(url: str, timeout: float) -> bytes:
+    req = urllib.request.Request(
+        url.strip(),
+        headers={
+            "User-Agent": "MirrorCut-Update/1.0",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+
+def _http_get_bytes_manifest_with_retries(
+    url: str, *, attempts: int, pause_sec: float, timeout: float
+) -> bytes:
+    last_exc: Optional[BaseException] = None
+    for i in range(max(1, attempts)):
+        try:
+            return _http_get_bytes_manifest_once(url, timeout)
+        except urllib.error.HTTPError as ex:
+            last_exc = ex
+            if ex.code == 404 and i + 1 < attempts:
+                time.sleep(pause_sec)
+                continue
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError) as ex:
+            last_exc = ex
+            if i + 1 < attempts:
+                time.sleep(pause_sec)
+                continue
+            raise
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("manifest: не удалось загрузить")
+
+
+def _http_get_bytes_manifest(url: str, timeout: float = 30.0) -> bytes:
+    """
+    Загрузка manifest.json по HTTPS.
+    raw.githubusercontent.com после push часто отвечает 404, пока CDN не обновится — несколько попыток;
+    затем запасной URL github.com/.../raw/.../path.
+    """
+    from urllib.parse import urlparse
+
+    u = (url or "").strip()
+    try:
+        host = (urlparse(u).netloc or "").lower()
+    except Exception:
+        host = ""
+    is_raw_github = host == "raw.githubusercontent.com"
+    attempts = 20 if is_raw_github else 3
+    pause = 1.4 if is_raw_github else 0.35
+    try:
+        return _http_get_bytes_manifest_with_retries(u, attempts=attempts, pause_sec=pause, timeout=timeout)
+    except urllib.error.HTTPError as ex:
+        if ex.code != 404 or not is_raw_github:
+            raise
+        alt = _github_raw_url_to_github_com_raw(u)
+        if not alt:
+            raise
+        return _http_get_bytes_manifest_with_retries(
+            alt, attempts=8, pause_sec=0.45, timeout=timeout
+        )
+
+
 def _sha256_file(path: str) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -402,16 +487,17 @@ def check_and_apply_updates_interactive(parent=None) -> bool:
         return False
 
     try:
-        raw = _http_get_bytes(url, timeout=30.0)
+        raw = _http_get_bytes_manifest(url, timeout=30.0)
         manifest = _load_manifest_from_bytes(raw)
     except urllib.error.HTTPError as ex:
         from PyQt5.QtWidgets import QMessageBox
 
         if ex.code == 404:
             txt = (
-                "В базе указана версия %s, но файл манифеста по ссылке не найден (404).\n\n"
-                "Опубликуйте в mirrorcut-updates каталог releases/%s/ (manifest.json) "
-                "или исправьте manifest_url в таблице mirror_desktop_app_release.\n\n"
+                "В базе указана версия %s, но файл манифеста по ссылке не найден (404), в том числе после "
+                "повторных запросов (задержка CDN GitHub raw).\n\n"
+                "Проверьте в репозитории mirrorcut-updates ветку и путь releases/%s/manifest.json, "
+                "поле manifest_url в mirror_desktop_app_release и что файлы запушены на GitHub.\n\n"
                 "Вход в программу без обновления."
                 % (remote_v, remote_v)
             )

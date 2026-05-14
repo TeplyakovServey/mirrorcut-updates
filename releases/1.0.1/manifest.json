@@ -3,14 +3,14 @@
   "files": [
     {
       "rel_path": "MAIN_PROJECT/ui/login_dialog.py",
-      "sha256": "dee93efeeb7336b3b48c72cadfd0cfeb11f1f036ebacb858669d54e0779148db",
-      "size": 14885,
+      "sha256": "9edff76032fd1bec658d7957d6f960d99745eb4fa9ed5414c822aa05cf47b2b9",
+      "size": 14884,
       "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.1/files/MAIN_PROJECT/ui/login_dialog.py"
     },
     {
       "rel_path": "MAIN_PROJECT/update_client.py",
-      "sha256": "97fe0963f1aaf1b965bad5931abaa08d34ee557f9cfde618aa9f0ee9a12acddd",
-      "size": 20563,
+      "sha256": "85a30caa1a896f6664860a2d38c20cc2e620fe4850e9f1cd01595fd3cca02d76",
+      "size": 23857,
       "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.1/files/MAIN_PROJECT/update_client.py"
     },
     {
