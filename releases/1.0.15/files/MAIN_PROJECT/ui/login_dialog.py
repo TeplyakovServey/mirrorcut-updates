@@ -219,7 +219,7 @@ class LoginDialog(QDialog):
             logo_row.addWidget(miss_wrap, 0, Qt.AlignRight | Qt.AlignTop)
             inner.addLayout(logo_row)
 
-        title = QLabel("Вход в систему!!!")
+        title = QLabel("Вход в систему")
         title.setAlignment(Qt.AlignCenter)
         title.setStyleSheet(
             "color: rgba(255,255,255,0.96); font-size: 18px; font-weight: 700; "
