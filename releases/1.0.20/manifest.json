@@ -1,0 +1,24 @@
+{
+  "version": "1.0.20",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/ui/login_dialog.py",
+      "sha256": "ee4994e82cfef92d0ea274b21de31c2729aefb4e5f1ce6b918e534a8b66afc6f",
+      "size": 14905,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.20/files/MAIN_PROJECT/ui/login_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/update_client.py",
+      "sha256": "de4b101d2772398b9f6612fbe970b59281083597e2c43dce3afe54a0c58cfd44",
+      "size": 33512,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.20/files/MAIN_PROJECT/update_client.py"
+    },
+    {
+      "rel_path": "db/models.py",
+      "sha256": "ae35c008a9dd24b7ae57d76791110a95f3f29e3fe9b22d139c5c35411671ea57",
+      "size": 395455,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.0.20/files/db/models.py"
+    }
+  ],
+  "delete": []
+}
