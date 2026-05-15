@@ -4,6 +4,9 @@
 
 Схема манифеста: см. windows_installer/delta_manifest.schema.json
 Пути в манифесте — относительно корня установки (каталог MirrorCut.exe).
+
+Приватный репозиторий на GitHub: без токена raw/API часто отвечают 404. Задайте переменную окружения
+MIRRORCUT_GITHUB_TOKEN или GITHUB_TOKEN (PAT с доступом на чтение репозитория обновлений).
 """
 from __future__ import annotations
 
@@ -23,6 +26,39 @@ STATE_DIR_NAME = "_mirrorcut_state"
 INSTALLATION_JSON = "installation.json"
 INSTALL_VERSION_FILE = "install_version.txt"
 JOURNAL_FILE = "update_journal.json"
+
+
+def mirrorcut_github_http_headers(
+    url: str,
+    extra: Optional[Dict[str, str]] = None,
+    *,
+    user_agent: str = "MirrorCut-Update/1.0",
+) -> Dict[str, str]:
+    """
+    Заголовки для запросов к raw.githubusercontent.com, api.github.com и github.com/.../raw/...
+    Если задан MIRRORCUT_GITHUB_TOKEN или GITHUB_TOKEN — добавляется Authorization (Bearer),
+    иначе при приватном репозитории GitHub обычно отдаёт 404 без тела файла.
+    """
+    from urllib.parse import urlparse
+
+    h: Dict[str, str] = {"User-Agent": user_agent}
+    if extra:
+        h.update(extra)
+    tok = (os.environ.get("MIRRORCUT_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN") or "").strip()
+    if not tok:
+        return h
+    try:
+        p = urlparse((url or "").strip())
+        host = (p.netloc or "").lower()
+        path = (p.path or "").replace("\\", "/")
+    except Exception:
+        return h
+    if host in ("raw.githubusercontent.com", "api.github.com"):
+        h["Authorization"] = "Bearer %s" % tok
+        return h
+    if host == "github.com" and "/raw/" in path:
+        h["Authorization"] = "Bearer %s" % tok
+    return h
 
 
 def get_install_root() -> str:
@@ -133,7 +169,7 @@ def _interruptible_sleep(seconds: float) -> None:
 
 
 def _http_get_bytes(url: str, timeout: float = 60.0) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "MirrorCut-Update/1.0"})
+    req = urllib.request.Request(url, headers=mirrorcut_github_http_headers(url))
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
@@ -158,16 +194,25 @@ def _github_raw_url_to_github_com_raw(url: str) -> Optional[str]:
 
 
 def _http_get_bytes_manifest_once(url: str, timeout: float) -> bytes:
-    req = urllib.request.Request(
-        url.strip(),
-        headers={
-            "User-Agent": "MirrorCut-Update/1.0",
-            "Cache-Control": "no-cache",
-            "Pragma": "no-cache",
-        },
+    hdr = mirrorcut_github_http_headers(
+        url.strip(), {"Cache-Control": "no-cache", "Pragma": "no-cache"}
     )
+    req = urllib.request.Request(url.strip(), headers=hdr)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
+
+
+def _looks_like_html_error_page(data: bytes) -> bool:
+    """GitHub иногда отдаёт HTML (ошибка/страница входа) вместо файла — не JSON и не .py."""
+    s = data.lstrip()[:1200]
+    if not s:
+        return False
+    low = s.lower()
+    if low.startswith(b"<!doctype") or low.startswith(b"<html"):
+        return True
+    if low.startswith(b"<") and (b"<html" in low[:600] or b"<body" in low[:600] or b"not found" in low):
+        return True
+    return False
 
 
 def _http_get_bytes_manifest_with_retries(
@@ -203,12 +248,17 @@ def _http_get_bytes_manifest_with_retries(
 
 
 def _http_get_bytes_manifest(
-    url: str, timeout: float = 30.0, wait_status: Optional[Callable[[str], None]] = None
+    url: str,
+    timeout: float = 30.0,
+    wait_status: Optional[Callable[[str], None]] = None,
+    *,
+    quick_network: bool = False,
 ) -> bytes:
     """
     Загрузка manifest.json по HTTPS.
     raw.githubusercontent.com после push часто отвечает 404, пока CDN не обновится — несколько попыток;
     затем запасной URL github.com/.../raw/.../path.
+    quick_network — меньше попыток/пауз при старте приложения (меньше «лага» заставки).
     """
     from urllib.parse import urlparse
 
@@ -218,8 +268,14 @@ def _http_get_bytes_manifest(
     except Exception:
         host = ""
     is_raw_github = host == "raw.githubusercontent.com"
-    attempts = 20 if is_raw_github else 3
-    pause = 1.4 if is_raw_github else 0.35
+    if quick_network:
+        attempts = 10 if is_raw_github else 3
+        pause = 0.85 if is_raw_github else 0.3
+        alt_attempts, alt_pause = 5, 0.35
+    else:
+        attempts = 20 if is_raw_github else 3
+        pause = 1.4 if is_raw_github else 0.35
+        alt_attempts, alt_pause = 8, 0.45
     if wait_status is not None:
         wait_status("Проверка обновлений: загрузка манифеста…")
     try:
@@ -235,7 +291,7 @@ def _http_get_bytes_manifest(
         if wait_status is not None:
             wait_status("Пробуем запасной URL github.com/…/raw/…")
         return _http_get_bytes_manifest_with_retries(
-            alt, attempts=8, pause_sec=0.45, timeout=timeout, wait_status=wait_status
+            alt, attempts=alt_attempts, pause_sec=alt_pause, timeout=timeout, wait_status=wait_status
         )
 
 
@@ -355,6 +411,7 @@ def apply_manifest(
     *,
     skip_version_check: bool = False,
     local_version: Optional[str] = None,
+    on_step: Optional[Callable[[int, int, str], None]] = None,
 ) -> Tuple[bool, str]:
     """
     Скачать файлы по manifest, проверить sha256, заменить атомарно (через temp), записать журнал.
@@ -385,6 +442,19 @@ def apply_manifest(
     for d in deletes:
         normalize_rel_path(str(d))
 
+    n_del_bak = 0
+    for rel in deletes:
+        rel = normalize_rel_path(str(rel))
+        if os.path.isfile(_safe_target(root, rel)):
+            n_del_bak += 1
+    total_steps = max(1, 1 + n_del_bak + len(files) * 2)
+    done = [0]
+
+    def bump(msg: str) -> None:
+        done[0] += 1
+        if on_step:
+            on_step(done[0], total_steps, msg)
+
     ts = time.strftime("%Y%m%d_%H%M%S")
     state_dir = _state_dir(root)
     os.makedirs(state_dir, exist_ok=True)
@@ -400,11 +470,13 @@ def apply_manifest(
 
     tmpdir = tempfile.mkdtemp(prefix="mc_upd_", dir=state_dir)
     try:
+        bump("Подготовка обновления…")
         # удаления: сначала бэкап
         for rel in deletes:
             rel = normalize_rel_path(str(rel))
             target = _safe_target(root, rel)
             if os.path.isfile(target):
+                bump("Резерв перед удалением: %s" % rel)
                 bp = os.path.join(deleted_sub, *rel.split("/"))
                 os.makedirs(os.path.dirname(bp), exist_ok=True)
                 shutil.copy2(target, bp)
@@ -418,21 +490,31 @@ def apply_manifest(
             if not url:
                 return False, "У элемента files нет url: %s" % rel
             expect_sha = (it.get("sha256") or "").strip().lower()
-            try:
-                expect_size = int(it.get("size", -1))
-            except (TypeError, ValueError):
-                expect_size = -1
             if not expect_sha:
                 return False, "Нет sha256 для %s" % rel
 
             tpath = os.path.join(tmpdir, *rel.split("/"))
             os.makedirs(os.path.dirname(tpath), exist_ok=True)
+            bump("Скачивание: %s" % rel)
             data = _http_get_bytes(url)
-            if expect_size >= 0 and len(data) != expect_size:
-                return False, "Размер не совпадает для %s" % rel
+            if rel.lower().endswith(
+                (".py", ".json", ".txt", ".md", ".css", ".js", ".ts", ".html", ".htm", ".svg")
+            ):
+                if _looks_like_html_error_page(data):
+                    return (
+                        False,
+                        "Вместо файла %s получена HTML-страница (ошибка URL или доступа GitHub). "
+                        "Проверьте ссылку в манифесте и публичность репозитория." % rel,
+                    )
             digest = hashlib.sha256(data).hexdigest().lower()
             if digest != expect_sha:
-                return False, "SHA-256 не совпадает для %s" % rel
+                return (
+                    False,
+                    "SHA-256 не совпадает для %s (скачано %s байт).\n\n"
+                    "Обычно манифест на GitHub не соответствует текущим файлам в releases/…/files/ "
+                    "(пересоберите и опубликуйте релиз) или в БД указана не та manifest_url."
+                    % (rel, len(data)),
+                )
             with open(tpath, "wb") as out:
                 out.write(data)
             staged.append((rel, tpath))
@@ -446,6 +528,7 @@ def apply_manifest(
 
         # установка новых файлов
         for rel, tpath in staged:
+            bump("Установка: %s" % rel)
             target = _safe_target(root, rel)
             existed = os.path.isfile(target)
             if existed:
@@ -501,13 +584,17 @@ def apply_manifest(
 
 
 def check_and_apply_updates_interactive(
-    parent=None, *, wait_status: Optional[Callable[[str], None]] = None
+    parent=None,
+    *,
+    wait_status: Optional[Callable[[str], None]] = None,
+    quick_network: bool = False,
 ) -> bool:
     """
     Сравнить локальную версию с активной в БД; при необходимости скачать manifest_url и применить.
     Вызывается до окна логина (run.py) или с родителем-сплэшем.
     wait_status — подпись на заставке во время ожидания CDN (не блокировать UI).
-    Возвращает True, если нужен перезапуск (успешное обновление).
+    quick_network=True — короче ожидания при старте (run.py), меньше «лага» до логина.
+    Возвращает True, если обновление успешно применено (перезапуск — вручную пользователем).
     """
     try:
         from db import models as db_models
@@ -532,7 +619,20 @@ def check_and_apply_updates_interactive(
         return False
 
     try:
-        raw = _http_get_bytes_manifest(url, timeout=30.0, wait_status=wait_status)
+        raw = _http_get_bytes_manifest(
+            url, timeout=30.0, wait_status=wait_status, quick_network=quick_network
+        )
+        if _looks_like_html_error_page(raw):
+            from PyQt5.QtWidgets import QMessageBox
+
+            txt = (
+                "По ссылке манифеста пришла HTML-страница, а не JSON (часто неверный URL, ветка или доступ).\n\n"
+                "Проверьте manifest_url в mirror_desktop_app_release и файл на GitHub.\n\n"
+                "Вход без обновления."
+            )
+            if parent is not None:
+                QMessageBox.warning(parent, "Обновление", txt)
+            return False
         manifest = _load_manifest_from_bytes(raw)
     except urllib.error.HTTPError as ex:
         from PyQt5.QtWidgets import QMessageBox
@@ -541,8 +641,9 @@ def check_and_apply_updates_interactive(
             txt = (
                 "В базе указана версия %s, но файл манифеста по ссылке не найден (404), в том числе после "
                 "повторных запросов (задержка CDN GitHub raw).\n\n"
-                "Проверьте в репозитории mirrorcut-updates ветку и путь releases/%s/manifest.json, "
-                "поле manifest_url в mirror_desktop_app_release и что файлы запушены на GitHub.\n\n"
+                "Проверьте ветку и путь releases/%s/manifest.json и поле manifest_url в mirror_desktop_app_release.\n\n"
+                "Если репозиторий обновлений на GitHub приватный — без токена часто приходит 404: задайте переменную "
+                "окружения MIRRORCUT_GITHUB_TOKEN или GITHUB_TOKEN (PAT с чтением этого репозитория).\n\n"
                 "Вход в программу без обновления."
                 % (remote_v, remote_v)
             )
@@ -563,23 +664,98 @@ def check_and_apply_updates_interactive(
     if compare_versions(mv, local_v) <= 0:
         return False
 
-    from PyQt5.QtWidgets import QMessageBox
+    from PyQt5.QtWidgets import QApplication, QMessageBox, QDialog, QVBoxLayout, QLabel, QProgressBar
+    from PyQt5.QtCore import Qt
 
-    r = QMessageBox.question(
-        parent,
-        "Доступно обновление",
-        "Доступна версия %s (у вас %s). Установить сейчас?" % (mv, local_v),
-        QMessageBox.Yes | QMessageBox.No,
-        QMessageBox.Yes,
+    offer = QMessageBox(parent)
+    offer.setIcon(QMessageBox.Information)
+    offer.setWindowTitle("Доступно обновление")
+    offer.setText(
+        "Доступна версия %s (у вас %s).\n\n"
+        "Скачайте и установите обновление, затем полностью закройте программу и запустите её снова."
+        % (mv, local_v)
     )
-    if r != QMessageBox.Yes:
+    btn_go = offer.addButton("Скачать и установить", QMessageBox.AcceptRole)
+    offer.addButton("Позже", QMessageBox.RejectRole)
+    offer.setDefaultButton(btn_go)
+    offer.exec_()
+    if offer.clickedButton() != btn_go:
         return False
 
-    ok, msg = apply_manifest(install_root, manifest, local_version=local_v)
+    class _UpdProg(QDialog):
+        def __init__(self) -> None:
+            super().__init__(None)
+            self.setWindowTitle("Обновление MirrorCut")
+            self.setWindowModality(Qt.NonModal)
+            flags = (
+                (self.windowFlags() | Qt.Window | Qt.WindowMinimizeButtonHint)
+                & ~Qt.WindowContextHelpButtonHint
+            )
+            self.setWindowFlags(flags)
+            lay = QVBoxLayout(self)
+            self._lab = QLabel("", self)
+            self._bar = QProgressBar(self)
+            self._bar.setMinimum(0)
+            self._bar.setValue(0)
+            lay.addWidget(self._lab)
+            lay.addWidget(self._bar)
+            self.resize(520, 100)
+
+        def set_progress(self, cur: int, total: int, msg: str) -> None:
+            self._lab.setText(msg)
+            t = max(1, total)
+            self._bar.setMaximum(t)
+            self._bar.setValue(min(max(0, cur), t))
+            QApplication.processEvents()
+
+    if parent is not None:
+        try:
+            ph = getattr(parent, "set_loading_phase", None)
+            if callable(ph):
+                ph("")
+            parent.hide()
+        except Exception:
+            pass
+
+    dlg = _UpdProg()
+    dlg.show()
+    dlg.raise_()
+    dlg.activateWindow()
+    QApplication.processEvents()
+
+    def on_step(c: int, t: int, m: str) -> None:
+        dlg.set_progress(c, t, m)
+
+    ok, msg = False, ""
+    try:
+        ok, msg = apply_manifest(
+            install_root, manifest, local_version=local_v, on_step=on_step
+        )
+    except Exception as ex:
+        ok, msg = False, str(ex)
+    finally:
+        try:
+            dlg.close()
+        except Exception:
+            pass
+
     if ok:
-        QMessageBox.information(parent, "Обновление", msg)
+        QMessageBox.information(
+            parent if parent is not None else None,
+            "Обновление",
+            "Версия %s установлена.\n\n"
+            "Закройте программу полностью и запустите её снова — так подхватится новая версия."
+            % mv,
+        )
         return True
-    QMessageBox.warning(parent, "Обновление", msg)
+
+    if parent is not None:
+        try:
+            parent.show()
+            parent.raise_()
+        except Exception:
+            pass
+    QMessageBox.warning(parent if parent is not None else None, "Обновление", msg)
     return False
 
 
@@ -620,6 +796,9 @@ def maybe_show_release_notes(parent=None) -> None:
     """
     Один раз после обновления: если локальная версия = активной в БД и есть release_notes_url,
     показать окно заметок, пока пользователь не закрыл для этой версии.
+
+    Условие local_v == db_v выполняется после дельта-обновления (install_version.txt обновляется
+    в apply_manifest) и ручного перезапуска: тогда же подхватывается HTML и картинки по base URL.
     """
     try:
         from db import models as db_models
