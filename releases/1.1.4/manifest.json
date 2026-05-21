@@ -1,0 +1,43 @@
+{
+  "version": "1.1.4",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/xx.py",
+      "sha256": "bf27898085ee9feb2232ff09ef835da32f02e25e8c7a2013d3bdd10f1ee7b88a",
+      "size": 90003,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.4/files/MAIN_PROJECT/BLOCKS/xx.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/run.py",
+      "sha256": "47a2d04a5c1f0d85c026657a4448f0e5ccce81a92c1d731e8552c6055abc4586",
+      "size": 9170,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.4/files/MAIN_PROJECT/run.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_order_dialog.py",
+      "sha256": "2e621b2d611c4b8ecabc2fd0ba3a575f937016c02f12ded7702d3474099fb843",
+      "size": 220366,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.4/files/MAIN_PROJECT/ui/facade_order_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/main_window.py",
+      "sha256": "bced67ab319766a2d3afce6c0804667b0e5e19229cf890bff6a6aa25f054638e",
+      "size": 254642,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.4/files/MAIN_PROJECT/ui/main_window.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/update_client.py",
+      "sha256": "9b59a28d4f0c849b563e55498d8667fd97f58e2408915f7109f2f79ea0897290",
+      "size": 38758,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.4/files/MAIN_PROJECT/update_client.py"
+    },
+    {
+      "rel_path": "window_branding.py",
+      "sha256": "47cae2d404480637d6dc7f767f7540e6bfbc9adce0714b5e59b4d84bd147ecc1",
+      "size": 4554,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.4/files/window_branding.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.3"
+}
