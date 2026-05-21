@@ -1,0 +1,3547 @@
+{
+  "version": "1.1.3",
+  "files": [
+    {
+      "rel_path": "CALC_WINDOWS/cities_streets.db",
+      "sha256": "2cfc581400cd14db14b86442485cc64d0d0318a875c223ee355c18f455527a17",
+      "size": 2768896,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/CALC_WINDOWS/cities_streets.db"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/build_xx_exe.py",
+      "sha256": "0899cdad5f6eec0bad62fcd917220a34ef77f4a57d6ec8c0f2d34309c84babf1",
+      "size": 1069,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/build_xx_exe.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/build_xx_exe.spec",
+      "sha256": "421727f852c99b2ac34a866313426495058519de5967ed0c76e46484c23164f7",
+      "size": 2510,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/build_xx_exe.spec"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/__init__.py",
+      "sha256": "0012b852957cdf5f2b6e11509970ea1dd8d59bb72cb996730e740a281d1a4e34",
+      "size": 106,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/__init__.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/corner_labels.py",
+      "sha256": "d92c037c982ce2a9d1a0c6c50c65bd3160dad8c48e50a6a630ea34661d0b4546",
+      "size": 2077,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/corner_labels.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/corner_rounding.py",
+      "sha256": "bc2ff4b3786df5cf40add8ba03ff17f42aa04ec344cb771817c859a71872795d",
+      "size": 7643,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/corner_rounding.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/db_postgres.py",
+      "sha256": "7e055b05ea7e524fbf0aa0cc00c132eaa4b942ae5f85c1674cee114342443860",
+      "size": 27693,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/db_postgres.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/delivery_calc.py",
+      "sha256": "292ba7e4a0c2c77db8010e7509482a561bdbdf0fd11b79d51dd716f894e517a0",
+      "size": 1890,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/delivery_calc.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/delivery_geo.py",
+      "sha256": "aa6c3b20b404d165b3b7189f62a18481d72b9f453552e0065d80246690385634",
+      "size": 6731,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/delivery_geo.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/delivery_route_persist.py",
+      "sha256": "79ce79cdbd9280aecb88290c35c0ece265fbd83c3a08faf0ddccc24028b39a6e",
+      "size": 3710,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/delivery_route_persist.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/edge_exclusion.py",
+      "sha256": "6c9aeaaba2f45e0cc60c2803cfaddfcb1dd6f0c8b420da6134b0d5c084e7ecc7",
+      "size": 3310,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/edge_exclusion.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/geometry.py",
+      "sha256": "9ff1487e7264e908397041aa32e90bc95e6ed06c1bb5ec4d2827c31f657af82d",
+      "size": 9340,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/geometry.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/holes.py",
+      "sha256": "266cb9c12ae4fbfce3d0c4eefe41d849acffeada7357fac73f4304df51b9b819",
+      "size": 2521,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/holes.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/order_pdf.py",
+      "sha256": "c3d71a4be8b2a7b1ec6478383118df36a69a9aad51b1495d4ca8b84ba804b0be",
+      "size": 5017,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/order_pdf.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/order_summary.py",
+      "sha256": "c4cc6c5964f5c4c98460b4dda113ba5c37fbb4a42260f16a0872ed382fbdb421",
+      "size": 21994,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/order_summary.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/palette.py",
+      "sha256": "169a95f59249462c6490858c1f5b769c278dfda09bd202fa7e7df3a988842618",
+      "size": 3701,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/palette.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/pricing.py",
+      "sha256": "0e08f946925d77ef9bddf75576971b8803a95e69e0caf17252b58f8c1cd77177",
+      "size": 23920,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/pricing.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/pricing_film.py",
+      "sha256": "60455011a317fc5d85ccf0bd9031cfa6aab652b5af5fa6d95871379cc32a6008",
+      "size": 1101,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/pricing_film.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/pricing_packaging.py",
+      "sha256": "c2ec0bb2d5b26c289f7c9b4f856fb281563394738aad47d61a67339428cbe522",
+      "size": 5312,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/pricing_packaging.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/pricing_sandblast.py",
+      "sha256": "2623c436970818d0a87ef06b97f150ea9c6eebec396da5e42ff8068685f9f7dd",
+      "size": 1915,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/pricing_sandblast.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/serialize.py",
+      "sha256": "817c6c5a521a853946cf9a141a5d74b2b78e855ae606f7e5a2a463c5ba82c683",
+      "size": 851,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/serialize.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/upload_client.py",
+      "sha256": "e794dc92d815ad554ee88b420967218ab39d3243c2ca3f763c10af7cc381267a",
+      "size": 2794,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/upload_client.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/zamer_api_client.py",
+      "sha256": "400efceec8d24a2ea8a3481ce1de1e54fa70397d60efa276e86f98e374cb482c",
+      "size": 19412,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/calc/zamer_api_client.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/data/kad_ring.json",
+      "sha256": "107e31e227aea798593fe3ec2efa72ef6051b1ad9bc06676c377b4f1856ce943",
+      "size": 12689,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/data/kad_ring.json"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/calc_tile_style.py",
+      "sha256": "75827f1d814a6b921af1f910ba29851bd85ffb259728a6aad17a70477072a269",
+      "size": 7658,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/calc_tile_style.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/client_strip.py",
+      "sha256": "97215ea27828ab8a72608c9c615cf41d58fb655164d1d02e2be708ee2159a4b2",
+      "size": 10354,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/client_strip.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/delivery_dialog.py",
+      "sha256": "52094b6a4fce7e3c776f5dbbea648bae40ca44a2e6e8e5e9cdbb6083125ad355",
+      "size": 18819,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/delivery_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/delivery_tile.py",
+      "sha256": "8b0dfa1b0bd8b6d023e16c6867f49727f938e642bf01e869237d2e0ad4bf1797",
+      "size": 11713,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/delivery_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/delivery_web_map.py",
+      "sha256": "f24f70cd50437afb74c94bd1babc53ff5f09a1bfccecb769967583b1d22a6d9e",
+      "size": 7328,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/delivery_web_map.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/dop_uslugi.py",
+      "sha256": "e85d7375abcb766940264eff15bb5137d1a37c3635507d78b5d39c1c18ab4946",
+      "size": 3579,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/dop_uslugi.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/facet.py",
+      "sha256": "7a26f33e17366c2fc506e12b16b1ed80fcdeab6327acccd93e05dc937abc2b0c",
+      "size": 4966,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/facet.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/fframe_size.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/fframe_size.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/frame_slider.py",
+      "sha256": "2b26d0e56c3be8f1a2dd167fb9d7e31e46e41e887a30c8ff2693d82fd5139be1",
+      "size": 2605,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/frame_slider.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/furniture_tile.py",
+      "sha256": "36b84404a532e737e0f81aa1bd6bd3b3a86b064a132deb950583ba65a43efade",
+      "size": 16844,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/furniture_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/glass_product_tile.py",
+      "sha256": "a0343b617089327371d6c4f9793d538cffd94908a922c3abd9baa0ac8a8b7d23",
+      "size": 40059,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/glass_product_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/gravirovka.py",
+      "sha256": "414590a8ff90e66003e4a5fe0b8649d165fedb95f63986b6daa8e459f3c4f4f7",
+      "size": 5231,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/gravirovka.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/matovka.py",
+      "sha256": "102c9cc36ce1ab8d3eaf6d8b3cb52bcade2bfd94383304efe4ffc9019956e75e",
+      "size": 1582,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/matovka.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/order_model_dialog.py",
+      "sha256": "d9d5b55931e1a11990ed223fea92fd8c86323a37084b20ac62fc8cf2dcc6867d",
+      "size": 15556,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/order_model_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/otverst_frame.py",
+      "sha256": "1d633652202391ee23139e7b30439e2df7dd9d4dc6d71b871b45c4435d8df1a8",
+      "size": 9591,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/otverst_frame.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/packaging_tile.py",
+      "sha256": "4b6fc0a24976600e656bada13f7deee9693efbcb3fc65a32d8d88ca8491b4eb0",
+      "size": 2352,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/packaging_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/peskostroy_frame.py",
+      "sha256": "72da8aa24bbb68c0b1ab61f3e5219b6b2f4c86c951be98aceb1d994fc871430e",
+      "size": 8342,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/peskostroy_frame.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/photo_frame.py",
+      "sha256": "33e0f70a48b4c35ab7140c03404bdf8f722e2a66d3071b706f8b6351bfba225d",
+      "size": 8145,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/photo_frame.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/plenka_frame.py",
+      "sha256": "4b27ed9b991b4c3f75e4a3d0f432ba58d6804163bbf84ec9d6b75061d8440cf2",
+      "size": 2461,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/plenka_frame.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/podgotov_uslugi.py",
+      "sha256": "fe2749ac1ea534213283b832aefbee8632e50ec6b05c082e01f63a27966d87df",
+      "size": 4294,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/podgotov_uslugi.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/pokraska_frame.py",
+      "sha256": "72003916a6a47d403cdb50797d0bf91f3b060ba4962a3f49658dac31dd09d6f7",
+      "size": 1587,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/pokraska_frame.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/polirovka_frame.py",
+      "sha256": "954da4bfaed13243e70992b676826046b48fb3e1ba23493089a76ad33fe9a649",
+      "size": 5291,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/polirovka_frame.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/prepair_angle.py",
+      "sha256": "b35155b5655c0039fb8dedd57e1d6442f156d1908d95df3fb4856c1d8d5b8375",
+      "size": 18655,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/prepair_angle.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/shape_edge_preview.py",
+      "sha256": "c0021ddc71ac96b6e5f93c0b0eb07db0881329f441e641ef69e05d7ab57fbf58",
+      "size": 11488,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/shape_edge_preview.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/shlifovka.py",
+      "sha256": "247ed030d7beed9a7a3238e8eab5130faddd078ea044619d5695d021dc9f71ab",
+      "size": 7101,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/shlifovka.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/srochno.py",
+      "sha256": "94343a1bfa25c18f5307c7ebf52aee5bc1e64b74c42c082021d843ce05a99f96",
+      "size": 4409,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/srochno.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/test.py",
+      "sha256": "90b5c6bad180e736e2a549d4f9229f3dc5f93077e9b171f77021b3082927e9da",
+      "size": 5671,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/test.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/uf_skleyka.py",
+      "sha256": "db3a56cb83978dff5a88d0bae588fd081bf76315af6c81cf77e2b8b9ac980c9a",
+      "size": 10040,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/uf_skleyka.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/uslugi.py",
+      "sha256": "63a9d67fe7bbcde7bd6dc5148b3c16a14207ea2e0fdf268a91aaea70d92be94d",
+      "size": 4415,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/uslugi.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/virezi.py",
+      "sha256": "d853cc545e986faaa9ac232def81fb1f5b41cbf2cff4c800480892ebc3975b69",
+      "size": 9694,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/virezi.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/zamer_tile.py",
+      "sha256": "1327e4d22af012b0c2c8437e2420406de1e03cfba13463cd8e676b527c5086cb",
+      "size": 43737,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/elements/zamer_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/.gitkeep",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size": 2,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/.gitkeep"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/1.png",
+      "sha256": "052066fed3f10a0c081b222e450f459f8b54ec2539617e7e377d1c249a5a43a7",
+      "size": 94977,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/1.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/2.png",
+      "sha256": "ce8083cfa2ac4bc1df9a920c7b49831b0cdf7bcb456a622b11cd155694cfcecf",
+      "size": 131615,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/2.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/3.png",
+      "sha256": "589143ff72032ea0042ef2df293f45b68c33709cf5025527db7af06f4e9b765f",
+      "size": 133159,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/3.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/4.png",
+      "sha256": "a675067a363c095eb34c4e3c3c95f191f7dacde761ba8a87de568be84d8bdc07",
+      "size": 97457,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/4.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5-.01-D-tsvet-kor.png",
+      "sha256": "6bba2eab33255f2af4e9574d7fae72e9e7f32427714c25b7223a749be17a0362",
+      "size": 89346,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5-.01-D-tsvet-kor.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5-.10-D-dorbotka-tsveta-.png",
+      "sha256": "f37b27c1b9094f4d04934699a8645e27637e36445a5f90fb51d42dbf6f4e0b21",
+      "size": 81089,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5-.10-D-dorbotka-tsveta-.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-BG-D_16-6_8.png",
+      "sha256": "421cbd5c43f3db0f514b9be9464fb7656757c5ae23cd17a4db4055885d33032c",
+      "size": 76924,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-BG-D_16-6_8.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-BG-D_16.png",
+      "sha256": "421cbd5c43f3db0f514b9be9464fb7656757c5ae23cd17a4db4055885d33032c",
+      "size": 76924,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-BG-D_16.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-CHM-D_16-_6_8_.png",
+      "sha256": "81018627b07c2dd9e61e840b3d5c53392788df38412bd352654bf157e589d5f0",
+      "size": 85673,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-CHM-D_16-_6_8_.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-CHM-D_16.png",
+      "sha256": "81018627b07c2dd9e61e840b3d5c53392788df38412bd352654bf157e589d5f0",
+      "size": 85673,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-CHM-D_16.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-D16_1.png",
+      "sha256": "9ac70898734204714179878e12172f89f0adfd6708b0f9ddca6f6996a65a9d54",
+      "size": 68675,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-D16_1.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-D16_2.png",
+      "sha256": "4a9a24d6787cd2b0c64c574cd4c0256bb0cea0b0d09ed16d457f365f438ce024",
+      "size": 88608,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-D16_2.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.01-D16_3.png",
+      "sha256": "bf637eba54d7ca499626ef7a183c56e70c693be06148b8c5d55680f1b498a205",
+      "size": 93845,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.01-D16_3.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/5.png",
+      "sha256": "b1f4c743f7803825c70b4a658aa6a888fdf267c490c8ae02a3a2308249609159",
+      "size": 108722,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/5.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/img_fur/derzh_5_10D_2021-chernyy.png",
+      "sha256": "05686c7cf755044a69d5b90c3d77ad76c0544db8a495b026c8c88164ac66e546",
+      "size": 94502,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/img_fur/derzh_5_10D_2021-chernyy.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/main.py",
+      "sha256": "e861b07afef7868467aba26dc0e97a8fb0da83394b46c75e2c05a9f45a4e7ee4",
+      "size": 861,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/main.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/settings.py",
+      "sha256": "b4f48cad0cd778c878a5d2bb14681191c268f98dc9edee3880ee60016f6e08e3",
+      "size": 622,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/settings.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/001_manual_edge_sand_photo.sql",
+      "sha256": "6ba0903b02f3215edec414ee184f9732b0cc058249f05876732e537887a982b3",
+      "size": 2209,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/001_manual_edge_sand_photo.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/002_delivery_route_snapshot.sql",
+      "sha256": "c0e03c5aa85fac35783767a3f29af2aac0e948aff5d982ae4056fc19a4b7df64",
+      "size": 306,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/002_delivery_route_snapshot.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/003_corner_rounding_price.sql",
+      "sha256": "a3cb93502d16885e42607f048ff37024edbe6a511e7866acf76a48cc306e7832",
+      "size": 911,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/003_corner_rounding_price.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/004_furniture.sql",
+      "sha256": "f89e62500bc6211addaebde95d310134eb54ea72ba727d8792f2e6f1e2c16c5a",
+      "size": 2022,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/004_furniture.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/005_parse_shelf_furniture_prices.py",
+      "sha256": "b2e4dc16a08cff3a17b6bfc36bca80e3cb73d567ca10365ea4db51cd45ba2b83",
+      "size": 2576,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/005_parse_shelf_furniture_prices.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/005_shelf_furniture.sql",
+      "sha256": "3e4349736bbd1e7c3511a5968a6ad947f05e7b1f134c0fe5c73110d5773a4743",
+      "size": 1835,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/005_shelf_furniture.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/006_blocks_furniture_bootstrap.sql",
+      "sha256": "32545eee8f1e19647e791fe7aac8e30da5232099448e2a7bd6718ccc0fae8078",
+      "size": 6473,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/006_blocks_furniture_bootstrap.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/007_uf_skleyka_prices.sql",
+      "sha256": "738f748d995dbeca21c8836c5cc9f313137e20b2d2206051052f0e7627dfcbbe",
+      "size": 1098,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/007_uf_skleyka_prices.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/008_blocks_virez_prices.sql",
+      "sha256": "3113a5d6f71d43795f3fa1cdedc0257295557692483d8c312635a6102b549289",
+      "size": 710,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/008_blocks_virez_prices.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/009_delivery_inside_kad_2000.sql",
+      "sha256": "07a820a73e9cfcfbaeebaf77c8c13e40b98b4a4b617672e3ad30859d9aeff694",
+      "size": 187,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/009_delivery_inside_kad_2000.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/010_blocks_zamer.sql",
+      "sha256": "60a7c8b11e1ca76c42f65b5bd4c8b1f7cacd5141d604977418afe992ccbfa831",
+      "size": 1102,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/010_blocks_zamer.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/012_blocks_zamer_portal.sql",
+      "sha256": "4fd43c2adef2e11b41b7201c922080ab98afc3b61b87c27b8d4c2b1e41cdb33f",
+      "size": 243,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/012_blocks_zamer_portal.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/013_blocks_zamer_delivery_files.sql",
+      "sha256": "5485e66e9894b5f18477383ae4feb4e905017b80c27c1553af702824463a3ff8",
+      "size": 452,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/013_blocks_zamer_delivery_files.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/013_delivery_outside_kad_base_2000.sql",
+      "sha256": "fe8bdfbafaa1b4b32364cfd78d57f97d49460954a7968d5556df66b79fcc48b9",
+      "size": 231,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/013_delivery_outside_kad_base_2000.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/014_zamer_board_notify.sql",
+      "sha256": "f9a843690ce481d489734124ca4991b978b50acaee345324c7971b1388f80bc7",
+      "size": 916,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/014_zamer_board_notify.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/015_glass_prices_divide_1_2_note.sql",
+      "sha256": "ac8966bbefae086e18106cd66c8d34fecd255de7b192f86c8f02ae067548f637",
+      "size": 491,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/015_glass_prices_divide_1_2_note.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/016_mirror_silver_5mm.sql",
+      "sha256": "ffe09ff0fb22ffb999b52aed53e6d6322ddfd759f6c5f9a39821192cdb2abe40",
+      "size": 1229,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/016_mirror_silver_5mm.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/_check_furniture_db.py",
+      "sha256": "19a0bb72ac9ca92da9cf8562b30b52a35bc0bf7a6ceaf5c08d741d8539372018",
+      "size": 2209,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/_check_furniture_db.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_001_manual_edge_sand_photo.py",
+      "sha256": "6b0e9abb09de7672c48f0732d4bd71bef7a5670d4972ceca67aefc4690f75157",
+      "size": 2067,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_001_manual_edge_sand_photo.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_006_blocks_furniture_bootstrap.py",
+      "sha256": "28f9f67c38dc888279123e44ea3e4e93ab7f71eda1ad31699d9e6da10c2bfe45",
+      "size": 3991,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_006_blocks_furniture_bootstrap.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_007_uf_skleyka_prices.py",
+      "sha256": "2323a8c5bd1ff93c64928b61f40314b4955f37f7b70ac2ba0b0be144f46322df",
+      "size": 1727,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_007_uf_skleyka_prices.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_008_blocks_virez_prices.py",
+      "sha256": "ad7ae17e3258b0011ba00885f5ea4cfc9e7bdcb4084b36aa7370c6f448f3de30",
+      "size": 1733,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_008_blocks_virez_prices.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_009_delivery_inside_kad_2000.py",
+      "sha256": "0494e2afe23ee1bf829e6099b2f9551f6fea27c0f484e8d6a7653c58db99e570",
+      "size": 1748,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_009_delivery_inside_kad_2000.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_010_blocks_zamer.py",
+      "sha256": "99571ce92ef500c04b203dc562aeb35a1ad5db0c1616bc222e7bcb8ce912f134",
+      "size": 1712,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_010_blocks_zamer.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_012_blocks_zamer_portal.py",
+      "sha256": "b8f2435bf46846a58fdf0e72ac4b83733c91d82acb863ceed902d71c54199440",
+      "size": 1733,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_012_blocks_zamer_portal.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_013_delivery_outside_kad_base_2000.py",
+      "sha256": "9e923065165af6f201801b60e7a778f13208286663f221569f6a09a217a20895",
+      "size": 1766,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_013_delivery_outside_kad_base_2000.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/apply_014_zamer_board_notify.py",
+      "sha256": "7fac5527639539f82eed2c7ae72e060caa21b4dc527fdf2c7b2e9fee2bf605df",
+      "size": 2075,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/sql/migrations/apply_014_zamer_board_notify.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/upload_server.py",
+      "sha256": "86bf5dba783066107082cf088cdcd98a6de74b2e58190016de092badaa96ba8c",
+      "size": 2075,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/upload_server.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/xx.py",
+      "sha256": "64beaa22d44bea3ef3e27181ed79d8ba75623018f1780ecb8f94cfc86a18c430",
+      "size": 89640,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/BLOCKS/xx.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/__init__.py",
+      "sha256": "7e9740854fb15422ff495f2306b385123d70a741ec7230862a84c0df831fb7ff",
+      "size": 52,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/__init__.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/harmony_plus_hinges_data.py",
+      "sha256": "b523075865865b6a28b49859658f135d159fecd2738f12ee20f7b30df6328058",
+      "size": 3331,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/harmony_plus_hinges_data.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1.png",
+      "sha256": "8962a3d1c5219119f03fd95e34dfc5f799324396cac1e6a9d6e71ed277ac1d3e",
+      "size": 79256,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10.png",
+      "sha256": "669c8c990d822c5ae09a3c66a5310bb32c890227c274d1f569044c3651d42404",
+      "size": 73147,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10_black.png",
+      "sha256": "00300ec048b56518c2adbce3bcc81ffeac8d5e0b035c23c86ebc430dd1e14b59",
+      "size": 321835,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10_black.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10_champagne.png",
+      "sha256": "556c03aead4d13f1a7f0f10794e4f0e68f5c72c219e81d408096f3b44ea80712",
+      "size": 380338,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10_champagne.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10_cognac.png",
+      "sha256": "23da6549a4999267e4b4cee621b7e883bc9ed64b685b5e76f9f5f9f2ed04af91",
+      "size": 381909,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10_cognac.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10_gold.png",
+      "sha256": "0b8b482911b8719f0ddf89a99ff0cef7352aea6beb24764d9ad2e63547676ab6",
+      "size": 381157,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10_gold.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10_silver.png",
+      "sha256": "c46db6f7c5d621bb3b8d7fa62d15c9055e83eb37cc5749677b883039b843aee6",
+      "size": 350214,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10_silver.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/10_white.png",
+      "sha256": "73898ab7567414ced99044143280422914164b7fa2b6836adc71cc1f27f2be3b",
+      "size": 335699,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/10_white.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/11.png",
+      "sha256": "dd45a94c054bec51bf0153ed9fa1d60ff3c3cc6c950e46b8911b261f3c41044a",
+      "size": 84054,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/11.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/12.png",
+      "sha256": "0a6a5218091af3168eb3f06cf5a1d021452487a2999d1b04e7f680dc0f5ecf67",
+      "size": 65863,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/12.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/13.png",
+      "sha256": "4692fb54a25053bae7963bb42094db1ee5e06a916d7370dc5776f4c91f5265e0",
+      "size": 83420,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/13.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/14.png",
+      "sha256": "d028fe9ab8d19143f71a8e36634e747b8b06f6eb70f6459a0792625c34dcdf9d",
+      "size": 87918,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/14.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/15.png",
+      "sha256": "79988fd67a51aaa42d0d008edeaf07b2643bb7a482cbc0d7b75e46e5ea37067a",
+      "size": 97067,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/15.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/16.png",
+      "sha256": "d7bd5534f459f6566bf945966adc24b6b15d519aab146632dcc7d0f4a087f32d",
+      "size": 102705,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/16.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/17.png",
+      "sha256": "6e5714bae788fd9493a38086500c4ec4124c49a7ab47feda35905703d5f8c8af",
+      "size": 92766,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/17.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/18.png",
+      "sha256": "5ae26d15405926196fb4f43378a127449dafabf8cabdd1f6bfe0775b85fee2b5",
+      "size": 96683,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/18.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/19.png",
+      "sha256": "14fb00324d6b0a7a5035b4b02e5b0561379ecb4952533a05dd9c92c303a03252",
+      "size": 119978,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/19.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1_black.png",
+      "sha256": "001194f726678d4bac01e4efa335b15f0fa5d00715bcf1d265e94c2a2700e232",
+      "size": 325206,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1_black.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1_champagne.png",
+      "sha256": "e5a0ab67501b0cfe4e10a10234857cae01575df339dbc0ad93f2c9709bc3e38d",
+      "size": 431046,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1_champagne.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1_cognac.png",
+      "sha256": "8a36e43b8ad7c7c0353c77820ac01565066abcc4e7461ace07319c90848c277b",
+      "size": 434990,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1_cognac.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1_gold.png",
+      "sha256": "68f4c44ddc01b09ec572bdb068147775dd04d4fe871eddf3328e13c5645ece66",
+      "size": 430156,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1_gold.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1_silver.png",
+      "sha256": "1859479c41af211a02313be07f5df5de4a5a9e86a59434b7c524f13496c03133",
+      "size": 397428,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1_silver.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/1_white.png",
+      "sha256": "e3452a9746df1b440d8b8eb0da52844f83b0319469481a15cdac09078da7ebdc",
+      "size": 344800,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/1_white.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/2.png",
+      "sha256": "283a9e3f6f3cbaf2df808154b103fb7628c45987abdc9a1014d836cb561d2f4b",
+      "size": 85803,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/2.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/20.png",
+      "sha256": "253172596d26e51134d7c1ab2e9d8a1dcc3ca65573b3ebd9446d7c9eb7ac5c86",
+      "size": 72480,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/20.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/21.png",
+      "sha256": "628643eccb34c8e9b4ce7595c8be160373371f4681387ee23f440e26883e534a",
+      "size": 72782,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/21.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/22.png",
+      "sha256": "e910d11801ffccca8ef67b2bf4f2d59fc3b3f51230bd35b49778fcb5f5406ca7",
+      "size": 75933,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/22.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/23.png",
+      "sha256": "f66752b7d8fa0b387907e785ac34ee443afa3ae2e9160df47c5e2a7cfe9d37e5",
+      "size": 71958,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/23.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/24.png",
+      "sha256": "f8accd302246881005397e0b9e1dd77f803832a93fc77e7b0fec315f63e00a58",
+      "size": 73626,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/24.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/25.png",
+      "sha256": "c7e3c7e8f5b1003ab5efcf47942f67b0473c06dccd10a9c2a2d37b5b0859a105",
+      "size": 40580,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/25.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/26.png",
+      "sha256": "46cfe771a8bfed4d8b76b3a1655f818b8a2b2481a563ef4da9ebea122750c106",
+      "size": 98810,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/26.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/27.png",
+      "sha256": "2647018204386ad0f81b9c6e212f651ee5deaf873dff0dab4b322b3135cbf6a3",
+      "size": 99233,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/27.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/28.png",
+      "sha256": "c582fea27d35e164218222913c424a2a1502299756ca07b122e0dddbf69c4be9",
+      "size": 102652,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/28.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/29.png",
+      "sha256": "07c8e4d45f1855bb7fa2dea88e1ddf8a0c21616dbe5eab112d6714795ae14d79",
+      "size": 105041,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/29.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/3.png",
+      "sha256": "d29d17779f62fb0feebb88eb38f95cb2f20747ef565179b20ab0fc6edc425447",
+      "size": 66775,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/3.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/30.png",
+      "sha256": "09e38a867a67c2b79fa7183548923e4fcddce4acc6e9456381d1df9cc74dc0f0",
+      "size": 63505,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/30.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/31.png",
+      "sha256": "2884bb1c8f238f92588a1b2c8bd149fa7da99d4d8f7dc0b54df4f9499a8a7c8a",
+      "size": 66660,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/31.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/32.png",
+      "sha256": "fbaedb0ecbda8dc04cd0052688827db053f08263dfc1eae9b5599348861ea825",
+      "size": 71733,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/32.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/33.png",
+      "sha256": "4c339148db268af7a6fa002ee412892ee8dd907f62013afc8d2278e8a31b8998",
+      "size": 70683,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/33.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/34.png",
+      "sha256": "cfeb9fd412544bf3db4e1420fd3cfcd690c543599fd79e9643a3e8810ef7d1ba",
+      "size": 67476,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/34.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/35.png",
+      "sha256": "7c24691caa2ccd66a604b9a9568cee201a3ec20e2c25623f0bf7bb5327b8fd1a",
+      "size": 62737,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/35.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/36.jpg",
+      "sha256": "c1b294840669a0320341a24df7ab4f4475265f1a98b8c42143be6740ee9e8aea",
+      "size": 40484,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/36.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/36.png",
+      "sha256": "54ab3dd30ee69a95af366c80337358758cf9821ad92552189779cff82953ec46",
+      "size": 47472,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/36.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/37.jpg",
+      "sha256": "0fcbe60c65af4233746bc936b38fab032ceffb909fa645a6daf74f810a6c13e7",
+      "size": 41890,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/37.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/37.png",
+      "sha256": "0bc80335bd6ce20026cb61e7a08ec8161447964146a502e63a4c2bd2bf669d48",
+      "size": 70377,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/37.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/38.jpg",
+      "sha256": "f443478385c22847789ca1d1b016d12d0df1403b017f5b2d700359cffc1745e9",
+      "size": 41544,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/38.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/38.png",
+      "sha256": "05580f147aaa86d0d767766445e1dd280476285c7cdfd016b2fb2c31eb03a14b",
+      "size": 55127,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/38.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/39.jpg",
+      "sha256": "395feb61f0fdd402630c0ea333e75b637b9a54154499624786ec8ac26ae12d75",
+      "size": 41796,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/39.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/39.png",
+      "sha256": "d5bd72e7d5ba7d80d41d965555864d4d1aee8f6bd99db2b0b7b79ed1d7311647",
+      "size": 47462,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/39.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4.png",
+      "sha256": "204cb04b7453ee78438cde94c50e8140aa0fc9ab882acde3ff76e5307e384a6d",
+      "size": 64944,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/40.jpg",
+      "sha256": "7e9046405828bea52f938d2fee7731700910f5ffbec6bbc616d36b116d56546f",
+      "size": 40514,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/40.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/40.png",
+      "sha256": "eefe0d7a9fa4ebf1f827c40e88d041ba7334f4739066d934328268773cf81f70",
+      "size": 40686,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/40.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/41.jpg",
+      "sha256": "be92e7b92210ada79825e7d7f34930407d9a6c2de869f78475828bd1b4cd94cd",
+      "size": 40962,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/41.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/42.jpg",
+      "sha256": "94078d372cffbd07212280a4dba1cfaba236e8e862c0c4c378a12d22b618bced",
+      "size": 36878,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/42.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/43.jpg",
+      "sha256": "63ba2c2e6df41b5ed43c4c52b7d04211dfd8932c9c9ef62e9961216c5ee9da6a",
+      "size": 38061,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/43.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/44.jpg",
+      "sha256": "1321b19eb6d762c8e7a6d831d06e7b9177ec407434039118d60fbd14bdbd0eb2",
+      "size": 41274,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/44.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/45.jpg",
+      "sha256": "117895f79af3be984a00c23ba4d17bc99a3670da4bf65e68b2854b487af6839a",
+      "size": 42133,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/45.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/46.jpg",
+      "sha256": "e1007f65b603ace7e7b768486ac4c1a5e33f747cfc253e1f71cb2cb5aa8b474f",
+      "size": 37341,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/46.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/47.jpg",
+      "sha256": "aa8db014573cc74f24e93c38a3d709913160a631e72a4d542c59b0ea21cfbd19",
+      "size": 38528,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/47.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/48.jpg",
+      "sha256": "7c6d8186c6a6594f574a01c1806a979964af0ad17e87d8e27e190ecb885c5e3d",
+      "size": 37059,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/48.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/49.jpg",
+      "sha256": "0b22dd43e4122742c0e717a7dcfc09364d0a8965ba665c724e886e7f157f7ff4",
+      "size": 36823,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/49.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4_black.png",
+      "sha256": "e5a10eb48084adb81a08b366f5259e373b740f141d5cd2037515a3e9c636af27",
+      "size": 281025,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4_black.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4_champagne.png",
+      "sha256": "12c1c7f29f769ac906525c53d8365ea7fc4a990b9cb006848760df98f26896b9",
+      "size": 362895,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4_champagne.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4_cognac.png",
+      "sha256": "28341e303f56afe2e731acc41183bb97f0ca77e7ead2e0b37496307f9c51ee5c",
+      "size": 375740,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4_cognac.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4_gold.png",
+      "sha256": "d69cea3895dfc1f0c9b46f8b82e437b7668baddae0e9215ff9ae6e74fe056c8c",
+      "size": 366858,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4_gold.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4_silver.png",
+      "sha256": "77ecd24d1c3eeab12f33dcf0990b881e1a3e09104be9eabaf5df4c04ec5a765d",
+      "size": 353252,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4_silver.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/4_white.png",
+      "sha256": "d5ca67bc28c22cf4a308fec6314aee37cfe2bdeb020a2b95cd4906cd5707c287",
+      "size": 299421,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/4_white.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/5.png",
+      "sha256": "9e49ff776d62ff3b097ce4cb632a24cade4b0ccc398a459d7db819c1d00e1f7d",
+      "size": 94139,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/5.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/50.jpg",
+      "sha256": "7857148f5e9d368530204368b674293b235754b13eb5f857e85c3b57485302b6",
+      "size": 35392,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/50.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/51.jpg",
+      "sha256": "dfeb81331d018ddeb401fb3a34a4af9cedc7511e8367976148643f62c4fdd1d6",
+      "size": 34603,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/51.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/52.jpg",
+      "sha256": "5f3398cb2c13e9586869e43272b1257617fcb4b85bb4636f45a65122bb33a9a5",
+      "size": 33300,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/52.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/53.jpg",
+      "sha256": "c4c7de6b59f9f83603a0fe4aedfa9a8003f1d64de7e49e675700b0cebfe01a1e",
+      "size": 30409,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/53.jpg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/6.png",
+      "sha256": "a64193e2254caff230fd35be78a726fba5ca8afcd4adff8298cb0ea1d5cf683f",
+      "size": 27295,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/6.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7.png",
+      "sha256": "9b520ea0c1a0619e736267377a6f4b1ca98565b8fe0f39f51e8bae309602ac00",
+      "size": 24963,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7_black.png",
+      "sha256": "12524a95ddef505a3710dead25886247a2ec2dc5870f7cbad4f335560d4cbd9f",
+      "size": 112905,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7_black.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7_champagne.png",
+      "sha256": "4d2f2ffbc677b1ff01cedfc5bc4562bd1faf3b48f435f3c8762d5de0e5456007",
+      "size": 160968,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7_champagne.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7_cognac.png",
+      "sha256": "16aa65227ff01979f74a67d99013a58f89d5658cc73bfdafbb551ecf588833cc",
+      "size": 162559,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7_cognac.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7_gold.png",
+      "sha256": "f32a004cc1cecdfdc3da2ae0c94bba80b7554a4a129d72edf6bfedd58ba8e6f5",
+      "size": 161512,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7_gold.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7_silver.png",
+      "sha256": "3b4cbe0ec36d2a525dc9b0d7cc64b23e0e50cb5d6eb539d5f0f9572dd87f42f1",
+      "size": 152601,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7_silver.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/7_white.png",
+      "sha256": "ff7409e8f4483fe82b4ba24639a5b7fb3589221a6319c07a7a75a02b20c369ef",
+      "size": 118943,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/7_white.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/8.png",
+      "sha256": "a045d8c777a8f7520db89cb219c76ca46af68732584a9bf4c4cf5a9c666a1e6b",
+      "size": 94459,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/8.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/9.png",
+      "sha256": "70351d317b74df5ec0356d8531fe6ea60f8716b7f6a48d2e71db6e07cda71d40",
+      "size": 77147,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/9.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-021/LB.png",
+      "sha256": "8b614453b24a53da90d0acd45688cc180552e2efcf5f9d0780c86e6d8b8fcf99",
+      "size": 2308,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-021/LB.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-021/LT.png",
+      "sha256": "385bcf26a8018b2084cf36b143b6e75edcd46783e4fa80293120c0f2b7deb328",
+      "size": 2256,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-021/LT.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-021/RB.png",
+      "sha256": "70dd878299fe2f3453fb71fe5f69ee3bf276cab672b7111781a6db9c806fb200",
+      "size": 2207,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-021/RB.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-021/RT.png",
+      "sha256": "2cfc1fb0429611995c553d4e9f25b22dd30ea6ddbc28991b511e8a90f0ea5011",
+      "size": 2231,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-021/RT.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-031/LB.png",
+      "sha256": "e27db77d6a64eb02925199c9077e3ee93039a41e7e4e03bf58247358808b0fa6",
+      "size": 2620,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-031/LB.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-031/LT.png",
+      "sha256": "21273709adcae4b773aba226cc5f7a935e4aeef3235a4bf3bdedf32629ee2928",
+      "size": 2538,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-031/LT.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-031/RB.png",
+      "sha256": "c81c7a6e4997134a9ed1ee95d3fe9ed4dfb9e76c0e134a50494010843b610b0e",
+      "size": 2569,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-031/RB.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/F3-031/RT.png",
+      "sha256": "d389430a4630389bcdda6dd8597554683c969ead8e3d845a64dc4f9b8c556501",
+      "size": 2641,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/F3-031/RT.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/винт/gold.png",
+      "sha256": "05580f147aaa86d0d767766445e1dd280476285c7cdfd016b2fb2c31eb03a14b",
+      "size": 55127,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/%D0%B2%D0%B8%D0%BD%D1%82/gold.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/винт/silver.png",
+      "sha256": "d5bd72e7d5ba7d80d41d965555864d4d1aee8f6bd99db2b0b7b79ed1d7311647",
+      "size": 47462,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/%D0%B2%D0%B8%D0%BD%D1%82/silver.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/уплотнитель/прозрачный.png",
+      "sha256": "35a5a0788359026f47bfebf1e610921a41275595ecba51c36c01d35781713856",
+      "size": 10417,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/%D1%83%D0%BF%D0%BB%D0%BE%D1%82%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D1%8B%D0%B9.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/img/фурнитура/уплотнитель/черный.png",
+      "sha256": "6ca1b1e707e6ad73355cac152239673955b5b5a11876cd9c1c13e52f1889e998",
+      "size": 7114,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/img/%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D0%B0/%D1%83%D0%BF%D0%BB%D0%BE%D1%82%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/mdm_parser.py",
+      "sha256": "095cad414cdb7ad420a4de9f836d07a741f4ed20336fba5de69f05ce4f964f53",
+      "size": 2196,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/mdm_parser.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/FASAD/Профиль.xlsx",
+      "sha256": "876ab283f6e00a0df0b486a46e80edc46df58f6bf422ac85d5e8e26cd17717ee",
+      "size": 20206,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/FASAD/%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8C.xlsx"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/app.cfg",
+      "sha256": "d172987e9428d869ae72557a072852cd9f473177a40aea77df5aac973838a94b",
+      "size": 1367,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/app.cfg"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/cfg_loader.py",
+      "sha256": "d053bd70e3ee2e572c6314342bcea8c4cccd421632e697d8c5113b2458a998cc",
+      "size": 4125,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/cfg_loader.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/db_main.py",
+      "sha256": "1fe620c9f089796974292fdde1f2409e17046b136d7d52856da148ccf5c01192",
+      "size": 90518,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/db_main.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/delta_import_overlay.py",
+      "sha256": "c88448c979f67637648b9fddacee3b820c4558a3318341f5df3c50825d1889fe",
+      "size": 3068,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/delta_import_overlay.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/lock/green.png",
+      "sha256": "faac8c338e8c45323619697b43d7009f58931cc61c88e907fa41d7b37628d48e",
+      "size": 2221,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/lock/green.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/lock/red.png",
+      "sha256": "e97fd332ec8352fb42450160d7bc1c95207b94914ac49dcb47855a68b19db828",
+      "size": 2104,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/lock/red.png"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/__init__.py",
+      "sha256": "81820d18e23999f140706e9954456e11ac9b25b541f5d13ef1ce1b504e17669f",
+      "size": 16,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/__init__.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/blocks_bundle.py",
+      "sha256": "d01e40074d7edf98a7906b69dc06245b7f722378dd04e01618ea049de805d97f",
+      "size": 31754,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/blocks_bundle.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/cutting_algorithm.py",
+      "sha256": "0e8077ebdd9ca9c95845b12959f4c841af559de53ffade99348a77d5a13957af",
+      "size": 1744,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/cutting_algorithm.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/dushevye_data.py",
+      "sha256": "953106c0dceadf9f7e447eacc83bac31f6ee2d23db64c1b13b8bfa8294c07517",
+      "size": 29078,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/dushevye_data.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/glass_prices_pg_admin.py",
+      "sha256": "0be1c4e58520df6118156cb97a50e1cb21572f01345dcf76f674dd02844fe465",
+      "size": 6866,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/glass_prices_pg_admin.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/production_instructions.py",
+      "sha256": "b6868dea6867b8b90d5a4d4a5c0078f01179fd3ff6b04cbae0b0209315fdd0f1",
+      "size": 123270,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/production_instructions.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/profile_cut_planner.py",
+      "sha256": "6af2f6dd09d533f99f403a429b8038a0a8fd927f53c78108f0e9b31b17c9624f",
+      "size": 5146,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/logic/profile_cut_planner.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/mirror_cut_prefill.py",
+      "sha256": "c93c96b095078ba2e5e8d09f62c616f2a0a0cef5b93eb8db5c73e281e3405b60",
+      "size": 17522,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/mirror_cut_prefill.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/mirror_cut_sys_path.py",
+      "sha256": "464be17a09925ddba98bcf0d9bbae7d1cdd0dd23da6023e6064792b11e7facf9",
+      "size": 2461,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/mirror_cut_sys_path.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/run.py",
+      "sha256": "1a5a42bb4087793174a6508769cdeab40e1a99b9c4f6dc1edf26eb71129cb5ea",
+      "size": 9022,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/run.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/scripts/import_harmony_plus_hinges.py",
+      "sha256": "106b049706086dcc568e7e97bb1b31e215b36e11aada104e16c7ee132039f008",
+      "size": 865,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/scripts/import_harmony_plus_hinges.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/scripts/import_profiles_from_excel.py",
+      "sha256": "bab34a254d285beeb804fb2ff3b7ab8a6b57b629ec6811236fcc8a5295aa7a70",
+      "size": 979,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/scripts/import_profiles_from_excel.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/scripts/reset_orders_domain.py",
+      "sha256": "7a33bdb20288c145191c476b9aede29eae28cc5b3eec07b423f54a1eaed79b2d",
+      "size": 1718,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/scripts/reset_orders_domain.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/__init__.py",
+      "sha256": "e9aa19ea0e979a6a8cd1af9d7efb27ce7ae01902bef407baf51b7740ede77c99",
+      "size": 70,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/__init__.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/_mirror_dialogs.py",
+      "sha256": "ddf9cd563ad2bc5018110f183bced36871a57c5ea50bf80ce848a0f9f15838ce",
+      "size": 2590,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/_mirror_dialogs.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/all_users_dialog.py",
+      "sha256": "d9d5613cd1181e4c820119763ee9348154ed6464f1a50139a2e0cb14aed23cf1",
+      "size": 10375,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/all_users_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/arsenal_splash_widget.py",
+      "sha256": "d139bcfb251d68b1c3d796e698fea18126fa524a7e181424662bec037df087cd",
+      "size": 29970,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/arsenal_splash_widget.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/boss_block_dialogs.py",
+      "sha256": "018c30e6f97f7c5f74fb5a4a1ea0188853bf15851af1855d8e0f4414d3c5744d",
+      "size": 1253,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/boss_block_dialogs.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/client_statistics_dialog.py",
+      "sha256": "8f12dedd9ffb930e2c99a74a51d14866910a4a5ec64870e7e12a4affefba3563",
+      "size": 26137,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/client_statistics_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/clients_dialog.py",
+      "sha256": "bc2860c5757cbdc732c7fd77f53cd3c975b7a17dd28ac5775bf0ccdf2d598aab",
+      "size": 27046,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/clients_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/confirm_users_dialog.py",
+      "sha256": "a10d2b80bb6df8b88f57521cb0ffbd8ac2588fe1f06936d57bb17766e1f3ed66",
+      "size": 3594,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/confirm_users_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/continental_import_dialog.py",
+      "sha256": "e33a7c0e8fece9daced1b61f89f33b4ad9d5c10b803dcb4b96b0dfea74b87cba",
+      "size": 4982,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/continental_import_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/cut_by_material_dialog.py",
+      "sha256": "7ff396c401512d5118d9a118bc44a6ea25a5ebd023df51197af9dc83a5363325",
+      "size": 23130,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/cut_by_material_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_constants.py",
+      "sha256": "109bf795ceff6cff12f3ef5c86c6fa904d9e522528cd0384a7c5624d915a30fb",
+      "size": 258,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_constants.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_fitting_widgets.py",
+      "sha256": "1f0462811473e69a00ca9f662d6861ee43ef6322532d9e25d56aa200463071e2",
+      "size": 14133,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_fitting_widgets.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_hinge_dialog.py",
+      "sha256": "264db4ff5a060def6c83e896f02e52b67f702d2525beb3d302ec32d68bead151",
+      "size": 14271,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_hinge_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_order_dialog.py",
+      "sha256": "74dd155159cd4a4330101ab4d42af1fdad9c9abb083ef5bdc5d82bb73cdfed69",
+      "size": 220448,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_order_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_profile_dialog.py",
+      "sha256": "5195f33ff27aece0a04882c88a91ac124f70cc39ff717126377cea0869124e8f",
+      "size": 16920,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_profile_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_profile_info_dialog.py",
+      "sha256": "94e4a645e1a78b8eaeebd260aa67c0286d758b55a0ca960f0de9b8fe268433fc",
+      "size": 2853,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_profile_info_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_sides_dialog.py",
+      "sha256": "a2d3295734651c0a1dd6450127ac1eedda889e771790fe9fb2cf6d23ebe44db5",
+      "size": 5185,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/facade_sides_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_mirror_calc_dialog.py",
+      "sha256": "c9ec7f30f1aa7738a60d57869453fb24e32d07fa66dffe6b388ce19214d2c966",
+      "size": 20428,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/glass_mirror_calc_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_order_overview_dialog.py",
+      "sha256": "92663e8eaba135335879a2d81b99d317f87b9417206321e474eea66982e4b568",
+      "size": 130122,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/glass_order_overview_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_prices_tab.py",
+      "sha256": "e775f57ffffc6d03309d09bc995fa5ea17e5672c1b5338e882fbf5f42be6beaa",
+      "size": 15559,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/glass_prices_tab.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/hold_delete_button.py",
+      "sha256": "704795e9e1ed20ceae47e0613b8d5770ff2458dd5914e33aad9e94d8a87aa7b6",
+      "size": 2507,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/hold_delete_button.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/inventory_tables_dialog.py",
+      "sha256": "26912604497fbef9068e9b56ad7675fb98de891502ec5ce7025d2a8ddb2034f1",
+      "size": 28523,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/inventory_tables_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/login_dialog.py",
+      "sha256": "9edff76032fd1bec658d7957d6f960d99745eb4fa9ed5414c822aa05cf47b2b9",
+      "size": 14884,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/login_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/main_window.py",
+      "sha256": "21dbd4bc6dec1b3b26ed554e4c544ce78c359d19115cd7e44ed2a89498f75b7d",
+      "size": 246956,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/main_window.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/new_order_modal.py",
+      "sha256": "ca90ad5b246da63d7d3a4e4f9f5ab0380f57e3015d45702b4ace00e5467a9859",
+      "size": 3192,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/new_order_modal.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/order_detail_dialog.py",
+      "sha256": "cafa2a5d761b885362cb3cf469ccfe65dff2de59a6158b949f65b672f5d71031",
+      "size": 9196,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/order_detail_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/order_info_dialog.py",
+      "sha256": "5b31846276d1236df17d4443c142b3590e1dd392a3b2c2d5f53f081406bee080",
+      "size": 2652,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/order_info_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/order_product_flow.py",
+      "sha256": "ecc99b91efec292949b2a60a3630ce697323de896984861f18c738e9244fad59",
+      "size": 1022,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/order_product_flow.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/order_tile.py",
+      "sha256": "4d4cdd905e88bd58d13c92bf961a32ec6fb4ea850df9dec9f9f2e631f060b479",
+      "size": 42609,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/order_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/personal_cabinet_dialog.py",
+      "sha256": "f1e372db41c94eb15d0c4e921d6e81f5ce653f0c49ad59c510e1f919f5376ade",
+      "size": 4348,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/personal_cabinet_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/plotly_stats_html.py",
+      "sha256": "31a47da57bc061b2f14824d8cf60b0eb3529537e5fa37d8371667d3a7b5e6c58",
+      "size": 5971,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/plotly_stats_html.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/portal_time.py",
+      "sha256": "dca442c2ed74a009f75909f283eb36f17524dacc7a673beb7b5ddfa1e9ccc61d",
+      "size": 2423,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/portal_time.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/prices_dialog.py",
+      "sha256": "8add73578b825b8b08639691b0ceea8914f1a701792ad54d594b4dd983936386",
+      "size": 38160,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/prices_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/quick_client_create_dialog.py",
+      "sha256": "687e0a144759e71f5ee8dcb3ff14a51a68e3e13db45e0036d219e8179e3d003b",
+      "size": 4844,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/quick_client_create_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/quick_estimate_client_pick_dialog.py",
+      "sha256": "a8bc878a1986c5baba85fed186833950e6b469fae144c20557cd026633430542",
+      "size": 16272,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/quick_estimate_client_pick_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/quick_estimate_dialog.py",
+      "sha256": "f5202cdd2f1481417230e4a07f9564655bc98696fe031d18046d3e2414929eeb",
+      "size": 9971,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/quick_estimate_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/release_notes_preview_dialog.py",
+      "sha256": "a2a7a30a48337bbc90dd5a1993125a3b38436f4a520d793e1a2afaa18f836baf",
+      "size": 3875,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/release_notes_preview_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/rich_release_notes_editor.py",
+      "sha256": "64ee75c3568efd6771a36627df0644c2b3aecb57278bde0bb48c9a8403213129",
+      "size": 23428,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/rich_release_notes_editor.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/sales_order_dialog.py",
+      "sha256": "7c27f72e8468867ce0eeaf8ff3e5335b5cc12926bd40ea6a5d651082dbfd7b42",
+      "size": 24673,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/sales_order_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/sales_orders_dialog.py",
+      "sha256": "0fa112ba47d2e6d70f3598e4ea0ef7a9c8414070b066e9aaa07a33725e00b90c",
+      "size": 3447,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/sales_orders_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/settings_dialog.py",
+      "sha256": "35c36908b89cadac751d230649f1bc9d1d9d28d1b9544728ea9214886432a373",
+      "size": 6364,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/settings_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/shower_catalog_dialog.py",
+      "sha256": "8cfb2810362110909e7d22623b2e1a77c1cdfdb83bc80a6b074679683b8a089e",
+      "size": 18146,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/shower_catalog_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/supplier_card_dialog.py",
+      "sha256": "bcc3294c4bf28b333bf8f801edf5ad3408cd4d59f33ae4f621860e1a62f47b17",
+      "size": 7991,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/supplier_card_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/supplier_picker_combo.py",
+      "sha256": "79f1798f714262f66d7c6f618cd19a413cf3ec595881bfe4295c29d44c7dd782",
+      "size": 3916,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/supplier_picker_combo.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/supplier_statistics_dialog.py",
+      "sha256": "2cfe607fe9951803701d1375f48f0a46ff3957d72608d50ee7508784645c834c",
+      "size": 25970,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/supplier_statistics_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/suppliers_dialog.py",
+      "sha256": "173efc117868a1593fd4b114f7084e21fcee465864b0e6b47ae03b667c7c0276",
+      "size": 7263,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/suppliers_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/trial_cut_dialog.py",
+      "sha256": "ca45824157dde70ad1ae3ffd740a20430b09650ea60176544726114c5832d1ca",
+      "size": 3813,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/trial_cut_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/zamer_pg_listen.py",
+      "sha256": "88a377e75bc281e7a593de3858be6e4e2e71cc12ae80ecb2b9db940a8aa8edba",
+      "size": 3428,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/zamer_pg_listen.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/zamer_portal_fulfillment.py",
+      "sha256": "308bfec22af332d60a14f6e40305f3d2e33d9c422fb1bdaf44309093bf455049",
+      "size": 41355,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/ui/zamer_portal_fulfillment.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/Задание_цех_заказ_3.pdf",
+      "sha256": "cb4dc2164218f56862f74a5f0c8f2dee8b7cdb8ac23980e829c844f1f3a9e20d",
+      "size": 48238,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D1%86%D0%B5%D1%85_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_3.pdf"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/Задание_цех_заказ_5.pdf",
+      "sha256": "4c5dfcf0ff9571dd48be8eb02d04158de8802bd5727212a6a0debe82043daf9f",
+      "size": 50748,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D1%86%D0%B5%D1%85_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_5.pdf"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/Карты_раскроя_заказ_5.pdf",
+      "sha256": "979689e3ed03f727b6b1843b4b7ba81ec66017dde7b9567e17217769aab6ccdc",
+      "size": 48632,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/%D0%9A%D0%B0%D1%80%D1%82%D1%8B_%D1%80%D0%B0%D1%81%D0%BA%D1%80%D0%BE%D1%8F_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_5.pdf"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/Сводка_заказ_3.pdf",
+      "sha256": "ebe03147275bb5f949b32fc38c67daa0d1874ed12bc10b7b14c87690acef033d",
+      "size": 50404,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/%D0%A1%D0%B2%D0%BE%D0%B4%D0%BA%D0%B0_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_3.pdf"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/Смета_заказ_3.pdf",
+      "sha256": "cda59f666f88e4168ec54b2a3cabcac04048964bc688f33eb0929b24fccd7014",
+      "size": 49699,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/%D0%A1%D0%BC%D0%B5%D1%82%D0%B0_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_3.pdf"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/Смета_заказ_5.pdf",
+      "sha256": "93cdf6d6595c37a270cde938b9ad1e1aa54b6998de024a256750cf59d776e95d",
+      "size": 49188,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/MAIN_PROJECT/%D0%A1%D0%BC%D0%B5%D1%82%D0%B0_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_5.pdf"
+    },
+    {
+      "rel_path": "Profil_new.xlsx",
+      "sha256": "54182503599ed2b79d59a02691642522b2bc88a3db3ac497c7b0af2dc4bf3bab",
+      "size": 21014,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/Profil_new.xlsx"
+    },
+    {
+      "rel_path": "app_paths.py",
+      "sha256": "0030a64d2e5fc6b3f75ac2f5f0418df77400ee968cbfc5043a08bd9e12df3795",
+      "size": 878,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/app_paths.py"
+    },
+    {
+      "rel_path": "app_state.py",
+      "sha256": "114db9fe163b7b6882f743d3615aa0d595b45ffe7d0417fa07480eba0a8caf9d",
+      "size": 687,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/app_state.py"
+    },
+    {
+      "rel_path": "config.py",
+      "sha256": "de42bc480d0ca165f1bbb3a3c95084a28addf62da802aad3c724f333baea2738",
+      "size": 2371,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/config.py"
+    },
+    {
+      "rel_path": "db/__init__.py",
+      "sha256": "6b89fdad302b74e68dcb393bf48d2adf50a0c7100014c4f4c780158bb238ffcf",
+      "size": 166,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/db/__init__.py"
+    },
+    {
+      "rel_path": "db/connection.py",
+      "sha256": "8d2a8e6d581c06f8f7af82fc4b96bf2918d43f39ac3ce3a1ff0a50340ce09e29",
+      "size": 6365,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/db/connection.py"
+    },
+    {
+      "rel_path": "db/migrations.py",
+      "sha256": "c5d38bfb700f56116f26cb2fdd9e64ced7febf8bbe817af78182e79b490e105f",
+      "size": 46665,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/db/migrations.py"
+    },
+    {
+      "rel_path": "db/models.py",
+      "sha256": "e070a0bc1f9133891ef1bb8ec38c79308eb05eca3e8535c61656fc651840ce97",
+      "size": 407772,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/db/models.py"
+    },
+    {
+      "rel_path": "db/trace.py",
+      "sha256": "ba33809d832b53eb0a53eb059da677bc1b73e2caa879027ee5557057ce6577e2",
+      "size": 3536,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/db/trace.py"
+    },
+    {
+      "rel_path": "db/zamer_portal_sync.py",
+      "sha256": "87ef2d3f5895f5aa0b7340625fad958429a39523c3ad4d70dd2188f4ae11cc9b",
+      "size": 16561,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/db/zamer_portal_sync.py"
+    },
+    {
+      "rel_path": "logic/__init__.py",
+      "sha256": "6de37e23a020eebf3984aeb7c9156ad093b159f52095422e6a19b47386eb0487",
+      "size": 74,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/__init__.py"
+    },
+    {
+      "rel_path": "logic/cut_sequence.py",
+      "sha256": "fcde77f3ed9e5ebf4310349c0707d28292dc524480cbd3949964623352ae3c3e",
+      "size": 16986,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/cut_sequence.py"
+    },
+    {
+      "rel_path": "logic/cutting_algorithm.py",
+      "sha256": "fabaf7aca04074dbf5d6ea6d49db7a48ce66f0b99ed21c5b8fbf60c4c645527a",
+      "size": 168680,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/cutting_algorithm.py"
+    },
+    {
+      "rel_path": "logic/glass_piece_edges.py",
+      "sha256": "cb5c9552486db701d7fac589cdd60f6d8171f806bac947c0a60ae46e5f2ef77c",
+      "size": 7752,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/glass_piece_edges.py"
+    },
+    {
+      "rel_path": "logic/labels.py",
+      "sha256": "1e6bc48ec691f9bdace82b59bcb8a2d6d436a54f187fa0b5e1a9922e41707cf3",
+      "size": 27656,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/labels.py"
+    },
+    {
+      "rel_path": "logic/labels_xlsx.py",
+      "sha256": "0e3c6a3dda37815e8564fa59c4100dcab33c3e0373845dae158dc98fdba834b7",
+      "size": 4447,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/labels_xlsx.py"
+    },
+    {
+      "rel_path": "logic/layout_learning.py",
+      "sha256": "495c9542587f5c70636ca581f3524e0968a4cf95ff4b65d973e64aa055d6b524",
+      "size": 2057,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/layout_learning.py"
+    },
+    {
+      "rel_path": "logic/pdf_export.py",
+      "sha256": "74e2229cd692418150b1d920e222cf97e35f17b1dfbdeebef6b07a57ad91e421",
+      "size": 26163,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/pdf_export.py"
+    },
+    {
+      "rel_path": "logic/qr_utils.py",
+      "sha256": "86d1705615a359937a7e21c51592a918bfc04e51a3854c5e7eeaa16d3224384a",
+      "size": 3705,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logic/qr_utils.py"
+    },
+    {
+      "rel_path": "logo/logo.png",
+      "sha256": "6368785ab791d8ea3230e25a4edecd71534d25cee048a0f17a4d79e26bd1e3d1",
+      "size": 41044,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logo/logo.png"
+    },
+    {
+      "rel_path": "logo/logo_2.png",
+      "sha256": "c2f2baf4987f28b02cfb16e445cc304ab2a00c98f6e2f2b43e82e0f4b8ee7c91",
+      "size": 323592,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logo/logo_2.png"
+    },
+    {
+      "rel_path": "logo/logo_main.png",
+      "sha256": "c576150138a13009bedf3d32a3325b847ecd51cb3e86897c89d02f660959a048",
+      "size": 866828,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/logo/logo_main.png"
+    },
+    {
+      "rel_path": "miss.png",
+      "sha256": "a52b5567196e4836840dfbd5b66791f110d9c52d687e4e7d3ba7918c919f3449",
+      "size": 56797,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/miss.png"
+    },
+    {
+      "rel_path": "playboy/1.png",
+      "sha256": "f8e2413ccf5848a0e10a798e1c5d5fcb177350da8ffdd6a6823814003b300fce",
+      "size": 50323,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/1.png"
+    },
+    {
+      "rel_path": "playboy/10.png",
+      "sha256": "3000462efd66d34fd6100262552f7febe5517dfa0ba869ba36e57f0833a5e3a0",
+      "size": 39923,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/10.png"
+    },
+    {
+      "rel_path": "playboy/100.png",
+      "sha256": "666f825ccefd3a4aadba9e4904abe60582994774079028c9ece47f3c12a667ee",
+      "size": 36507,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/100.png"
+    },
+    {
+      "rel_path": "playboy/101.png",
+      "sha256": "2ddf2150f81d4f3d3a67c2786c157df9d2c380aae1817f9ced0efeb78f942da1",
+      "size": 43916,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/101.png"
+    },
+    {
+      "rel_path": "playboy/102.png",
+      "sha256": "97849dae41a98695fff598c023ae841305370d8466cb971b4c33e98f23c309d1",
+      "size": 45727,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/102.png"
+    },
+    {
+      "rel_path": "playboy/103.png",
+      "sha256": "47fb21f376b9cdc49d479d5fd6494fcfb49ab7382aaf6d70ae73d370fee1c31c",
+      "size": 20255,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/103.png"
+    },
+    {
+      "rel_path": "playboy/104.png",
+      "sha256": "e54aeaf8721a16f1b5e55ef8b6a16ae8b7aea251be6eb2073b6d11039993bd73",
+      "size": 39063,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/104.png"
+    },
+    {
+      "rel_path": "playboy/105.png",
+      "sha256": "91345055885fac9d9cc5857f17d9f865e1028f7541b89ca6ca76718044fef6a5",
+      "size": 50522,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/105.png"
+    },
+    {
+      "rel_path": "playboy/106.png",
+      "sha256": "64ed48175b3b3e34a1f398af8b72f0d0f9e073c95112ceed62aef5591089b73d",
+      "size": 35268,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/106.png"
+    },
+    {
+      "rel_path": "playboy/107.png",
+      "sha256": "994e768b9766293a99fde0ce833bfd27ee5b8bf4e587a8b187315c608ab3eefc",
+      "size": 35721,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/107.png"
+    },
+    {
+      "rel_path": "playboy/108.png",
+      "sha256": "c058c48e629c69940242a7c98ba79046f977b757ff71f0be05cadcbdad0a8d5b",
+      "size": 41357,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/108.png"
+    },
+    {
+      "rel_path": "playboy/109.png",
+      "sha256": "8f484b2a8549e67b28070b208597f342da2cd9c4e50128608e52ba716938df2d",
+      "size": 40702,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/109.png"
+    },
+    {
+      "rel_path": "playboy/11.png",
+      "sha256": "c57ebd18451b527b7da76bb049bc20439fbd42ec9dfe3b770afe0a7edbd4ad29",
+      "size": 35778,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/11.png"
+    },
+    {
+      "rel_path": "playboy/110.png",
+      "sha256": "4c725fa54aecc746b3adea1761418957bbfe6befbcb7b465c64ec8b57c2f88c0",
+      "size": 43779,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/110.png"
+    },
+    {
+      "rel_path": "playboy/111.png",
+      "sha256": "f27614d9d28303c4830e67d496f0f2993ef65d77fe4a72191d5d2e38339e5db7",
+      "size": 66897,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/111.png"
+    },
+    {
+      "rel_path": "playboy/112.png",
+      "sha256": "5e375e775d9b8f5bed96de1e63bcc53713ae199117c43bde8b3bbfa313356574",
+      "size": 40134,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/112.png"
+    },
+    {
+      "rel_path": "playboy/113.png",
+      "sha256": "c058c48e629c69940242a7c98ba79046f977b757ff71f0be05cadcbdad0a8d5b",
+      "size": 41357,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/113.png"
+    },
+    {
+      "rel_path": "playboy/114.png",
+      "sha256": "f01b59febddcb6a9aed36554f18700ba7c7c81aff7c78d329a7686862d71afef",
+      "size": 62257,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/114.png"
+    },
+    {
+      "rel_path": "playboy/115.png",
+      "sha256": "2481567e729f2b1a35ebdcf3decc1804bb7d754e7f132458af417af9cf5dc26e",
+      "size": 43889,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/115.png"
+    },
+    {
+      "rel_path": "playboy/116.png",
+      "sha256": "26082189e29a8bcdaae8156bc217864f1afa4ec1a0e329edf6b277dc1baf3471",
+      "size": 35620,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/116.png"
+    },
+    {
+      "rel_path": "playboy/117.png",
+      "sha256": "9d22956877ec70c71070611f50cddc06995e68816206f7de66d96d62b4155483",
+      "size": 50801,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/117.png"
+    },
+    {
+      "rel_path": "playboy/118.png",
+      "sha256": "a6859b71b300e3560f0f10b86854e20c83f39b2b1d414b9299c2d222b3e61701",
+      "size": 26801,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/118.png"
+    },
+    {
+      "rel_path": "playboy/119.png",
+      "sha256": "d7c6d19e80012067d96eaf9912467fad868e0271f1001f2d784f64190032ec77",
+      "size": 38636,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/119.png"
+    },
+    {
+      "rel_path": "playboy/12.png",
+      "sha256": "699e6063ad6ca237ec2390e913d3047a2bd007b0b9e32e49a54da9cf1b7e67bc",
+      "size": 48471,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/12.png"
+    },
+    {
+      "rel_path": "playboy/120.png",
+      "sha256": "5877b9a16121bd5aa3ebf1af5ab803a81dbb796ff9e44c2507e125116c9d524d",
+      "size": 40722,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/120.png"
+    },
+    {
+      "rel_path": "playboy/121.png",
+      "sha256": "d33fe177fba05eb5ff0f4daf7fd08f1ac6d91977c0499a46b1523970a1c2aa27",
+      "size": 38131,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/121.png"
+    },
+    {
+      "rel_path": "playboy/122.png",
+      "sha256": "a6a82d354d12f06a5fd08c8c541d9c1fd4d61a63d5ce3c480f34f852710c7021",
+      "size": 39146,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/122.png"
+    },
+    {
+      "rel_path": "playboy/123.png",
+      "sha256": "b596b29ee3d90526a05fd01fb0895bc16a6740cd4bbb7636abc2ddade6a974c8",
+      "size": 49728,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/123.png"
+    },
+    {
+      "rel_path": "playboy/124.png",
+      "sha256": "f3705e7ee51262ea5897fa71bc163c8ae8b70364d4444684b9b443f3fadd012f",
+      "size": 31102,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/124.png"
+    },
+    {
+      "rel_path": "playboy/125.png",
+      "sha256": "a5ced883f2c160259104f9203e8df408c31bb81573b61fc316415e98ab850770",
+      "size": 31328,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/125.png"
+    },
+    {
+      "rel_path": "playboy/126.png",
+      "sha256": "5af43501490c3803af1c06cfda8d8b78fd9dd62424890bd1ecc3b27e3f0db9ae",
+      "size": 44181,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/126.png"
+    },
+    {
+      "rel_path": "playboy/127.png",
+      "sha256": "7b93ea851f17600c4c5af2f998e919d0b3add7f3bd06c6c061b603552af2037d",
+      "size": 42151,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/127.png"
+    },
+    {
+      "rel_path": "playboy/128.png",
+      "sha256": "a9aab33951ba376711e9ce5a056dd796cbe824825a18a2c857024ac9d878751b",
+      "size": 37098,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/128.png"
+    },
+    {
+      "rel_path": "playboy/129.png",
+      "sha256": "98051c17548692470d1e8dc591924e4bb7d3acc325e00bc190b5ceb4e0a63e46",
+      "size": 50168,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/129.png"
+    },
+    {
+      "rel_path": "playboy/13.png",
+      "sha256": "4d128996d153afe344611891b7f80cfb06724c6b6c0cf2a66a6e75f78fe4b5e4",
+      "size": 56797,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/13.png"
+    },
+    {
+      "rel_path": "playboy/130.png",
+      "sha256": "ffd8897ab7d7e934f171c6fa7faf2f87d5050ad23f4efb1dab2b35304d003735",
+      "size": 40361,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/130.png"
+    },
+    {
+      "rel_path": "playboy/131.png",
+      "sha256": "6492f65a20cbc499cb283b63542c4aee90b76561ce6ee1b6a3b6a06233f08013",
+      "size": 30844,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/131.png"
+    },
+    {
+      "rel_path": "playboy/132.png",
+      "sha256": "7577cba0c4760fddb1934b5ff86b8e37a28a522918e83e0ec047ff7f0cd9d239",
+      "size": 39532,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/132.png"
+    },
+    {
+      "rel_path": "playboy/133.png",
+      "sha256": "f45b442ea37b417c4ae1bb6ca70fbdf6066104aa37aac4e9819826f5a9fc48d1",
+      "size": 45101,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/133.png"
+    },
+    {
+      "rel_path": "playboy/134.png",
+      "sha256": "43fc32db994524617217460cf0c5be1de403c87c9dff47020b3ed9d417e38f2b",
+      "size": 36907,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/134.png"
+    },
+    {
+      "rel_path": "playboy/135.png",
+      "sha256": "4faa9bd69fd2481e1497994c05270e53f8bf65f27a19a3df66760ee557893e97",
+      "size": 44664,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/135.png"
+    },
+    {
+      "rel_path": "playboy/136.png",
+      "sha256": "7aaf3f32dd9cb8db8e7af906e7ee0e5d88bab26287a2857ff51f9ea987a08209",
+      "size": 45749,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/136.png"
+    },
+    {
+      "rel_path": "playboy/137.png",
+      "sha256": "a16a92e5536549e592a86a78e031c5e4de6fd8eefc2281283bc635f7108fabe0",
+      "size": 42907,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/137.png"
+    },
+    {
+      "rel_path": "playboy/138.png",
+      "sha256": "68e484b2f15d42f309bceffa841d220c770aacfe0fcc6161b3418c58f4f5f3f7",
+      "size": 46034,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/138.png"
+    },
+    {
+      "rel_path": "playboy/139.png",
+      "sha256": "f494513fbb21bb8b427adeb88e314a4f7c62136e442167bca5bfba7f70dbfc8e",
+      "size": 39566,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/139.png"
+    },
+    {
+      "rel_path": "playboy/14.png",
+      "sha256": "fdfe156fa2671b97d1247d5daefd2fbeadd51060f70cbe3c8812579a2f861d8c",
+      "size": 49322,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/14.png"
+    },
+    {
+      "rel_path": "playboy/140.png",
+      "sha256": "489bb506dc858adf2d39cf029be7e5c63773768aa9013c0b785bb4b1ac61f0a5",
+      "size": 48625,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/140.png"
+    },
+    {
+      "rel_path": "playboy/141.png",
+      "sha256": "79ae30a076ee9a382c8f19600548b5b1c0a1cf2f672990117aafb76fc263559a",
+      "size": 68517,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/141.png"
+    },
+    {
+      "rel_path": "playboy/142.png",
+      "sha256": "807c5cf57d6233922d075d357288645909f4629c946b1f089664acd86a7480a6",
+      "size": 43895,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/142.png"
+    },
+    {
+      "rel_path": "playboy/143.png",
+      "sha256": "f5342514524adf8a32fe54ad3c196d4e95113dd902b0791bd9e5ea676993d43a",
+      "size": 51960,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/143.png"
+    },
+    {
+      "rel_path": "playboy/144.png",
+      "sha256": "d0b40caaa06a90ff94ead4f227335f5f2022878fb09d5dbe6132d8810626106a",
+      "size": 41168,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/144.png"
+    },
+    {
+      "rel_path": "playboy/145.png",
+      "sha256": "e75e947458e8537a01e1efcab6ebb71b2e0a6680e2d707f6150c760cf01c9d83",
+      "size": 50152,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/145.png"
+    },
+    {
+      "rel_path": "playboy/146.png",
+      "sha256": "a0cf024ec2415f12dee2f311f462935162043b4aa824c8d967b79c0f7b607107",
+      "size": 40613,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/146.png"
+    },
+    {
+      "rel_path": "playboy/147.png",
+      "sha256": "4ed53eef6a77caa1b30cc2b83293c2f17f7c83ff07ea24dad0902ce749eeafe2",
+      "size": 45876,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/147.png"
+    },
+    {
+      "rel_path": "playboy/148.png",
+      "sha256": "1989f0147b0421840ac91bc3b40cb67b02a3455601d65b27e5c6176bf5710cfc",
+      "size": 42968,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/148.png"
+    },
+    {
+      "rel_path": "playboy/149.png",
+      "sha256": "229cacf535497a15a5f704d808efd267d8d42d16650693978c0c0f0ad0c54da6",
+      "size": 37161,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/149.png"
+    },
+    {
+      "rel_path": "playboy/15.png",
+      "sha256": "003ab7866e181def24d250443cce149e8880adddcc98a3de82daee2ece8b6859",
+      "size": 26548,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/15.png"
+    },
+    {
+      "rel_path": "playboy/150.png",
+      "sha256": "247248be731a4cb56236cb512d631b0d3b1390517aaac91beee080659b5fc07b",
+      "size": 49577,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/150.png"
+    },
+    {
+      "rel_path": "playboy/151.png",
+      "sha256": "e6a59b168a59d787c5822cd8ea20e0228a1c760805129184a0f4696ee93ff357",
+      "size": 50283,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/151.png"
+    },
+    {
+      "rel_path": "playboy/152.png",
+      "sha256": "2855206d95e805aa44989e9d24f18f84b84fffdfecc1a336f2ff6c5011957162",
+      "size": 50514,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/152.png"
+    },
+    {
+      "rel_path": "playboy/153.png",
+      "sha256": "ba49a0d20722ab2d44af257aa63e98c7871e452d5461379598a4c26c7f21d717",
+      "size": 46109,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/153.png"
+    },
+    {
+      "rel_path": "playboy/154.png",
+      "sha256": "28e67661ba48cdcebe62e7513509e65eed8c3ee0461c04c5c5f283b872aceefb",
+      "size": 41215,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/154.png"
+    },
+    {
+      "rel_path": "playboy/155.png",
+      "sha256": "028b51062dba12426c61ca26cb0e2568f3a0fc761679dd478d9426570c5aa9e6",
+      "size": 35506,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/155.png"
+    },
+    {
+      "rel_path": "playboy/156.png",
+      "sha256": "530a468aea6a8c72e8aa597aafcde50efd9932b8fb66c4ea4eca0d6f487ac596",
+      "size": 37635,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/156.png"
+    },
+    {
+      "rel_path": "playboy/157.png",
+      "sha256": "6bf796f31146ee5cef9dcf5679ba350f073db570a503284614adab23e7f78d64",
+      "size": 39389,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/157.png"
+    },
+    {
+      "rel_path": "playboy/158.png",
+      "sha256": "bb487c5001d6c18ffdb629f39f6a1d2980142003a7496211587af37cc5dc1eb2",
+      "size": 52899,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/158.png"
+    },
+    {
+      "rel_path": "playboy/159.png",
+      "sha256": "0d6e85e8d5507d52728bb7a026cfa3d2e107b2082fdd9f39b829781bfca45eaa",
+      "size": 39786,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/159.png"
+    },
+    {
+      "rel_path": "playboy/16.png",
+      "sha256": "9d9c3af2e9a2de7398e5935f0a62cc335bfd079214b9f2fddb65e698821d847c",
+      "size": 35830,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/16.png"
+    },
+    {
+      "rel_path": "playboy/160.png",
+      "sha256": "f1ae10cf8d5d4ee6562c84a5cb89ea01f11ac560454e387a1df85fc755bf14ae",
+      "size": 35780,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/160.png"
+    },
+    {
+      "rel_path": "playboy/161.png",
+      "sha256": "bd2a38f6afb3066563084d3534b9cb65d7016f5a3584ecad64b856981138a853",
+      "size": 38243,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/161.png"
+    },
+    {
+      "rel_path": "playboy/162.png",
+      "sha256": "4a797a4acb9e28a0333e9f76cabcaaa25f7a655ed1da5aadd7afb0dc130de1c1",
+      "size": 52868,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/162.png"
+    },
+    {
+      "rel_path": "playboy/163.png",
+      "sha256": "21962bf3c4a32d3d5ad2ec27dffac97a789f204c0a69e54021f8bf37ae73170a",
+      "size": 44090,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/163.png"
+    },
+    {
+      "rel_path": "playboy/164.png",
+      "sha256": "741aa20b795d765077355f698d072ecb268116b5174491ec84e04217e49abe30",
+      "size": 45625,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/164.png"
+    },
+    {
+      "rel_path": "playboy/165.png",
+      "sha256": "4fa3eaa1eb8084a0f9c80e600df0170dc5c76c725f280d9feaa98f9fa7896401",
+      "size": 35880,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/165.png"
+    },
+    {
+      "rel_path": "playboy/166.png",
+      "sha256": "b05e163152a5d074f96ecf2b51fe7f0c67cb1628b94b293477f7f112f86b1aa7",
+      "size": 40885,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/166.png"
+    },
+    {
+      "rel_path": "playboy/167.png",
+      "sha256": "51551014b919ba11bc504714043bda32002b18aa20decad2b8d529e9ee6d4ccd",
+      "size": 42131,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/167.png"
+    },
+    {
+      "rel_path": "playboy/168.png",
+      "sha256": "ccf90604d5a0189be85a1fcb448f4c52443173e9daa4be2b6456d67ac098a9ff",
+      "size": 43501,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/168.png"
+    },
+    {
+      "rel_path": "playboy/169.png",
+      "sha256": "138c97d96bd9e586e7643bbe7a54fc36c77ac32aab4b3a5592f9c5d5eb616d77",
+      "size": 35886,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/169.png"
+    },
+    {
+      "rel_path": "playboy/17.png",
+      "sha256": "d8b6691443cfa65cd101465ff2f8ac22c5964202161e8f83ee166cedff5f26e5",
+      "size": 38027,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/17.png"
+    },
+    {
+      "rel_path": "playboy/170.png",
+      "sha256": "98133ade646ff361f8e4fefc3d8119868509544113629f083bfae45b86ae6411",
+      "size": 56091,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/170.png"
+    },
+    {
+      "rel_path": "playboy/171.png",
+      "sha256": "8fa618b0bd2dfcece9719511233453224b86273dae008c0630a96814574a6136",
+      "size": 45595,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/171.png"
+    },
+    {
+      "rel_path": "playboy/172.png",
+      "sha256": "e8eb89edebeead0903a50895bec2885531f5cfba70e2f58603591030f18ff27a",
+      "size": 36938,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/172.png"
+    },
+    {
+      "rel_path": "playboy/173.png",
+      "sha256": "6e7f0c2696f10b1a855ee8428ac2e429ec3cb522b754244f93861375a7efeab3",
+      "size": 48787,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/173.png"
+    },
+    {
+      "rel_path": "playboy/174.png",
+      "sha256": "8eca6ccb7986f03b1cabcba86f8baf2229019ea018c999ba2568bef0826d4923",
+      "size": 37684,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/174.png"
+    },
+    {
+      "rel_path": "playboy/175.png",
+      "sha256": "cfdecf860d5ef5a306c71babf72638c39e02f62107bdfe386e88762a0ac85ec8",
+      "size": 42641,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/175.png"
+    },
+    {
+      "rel_path": "playboy/176.png",
+      "sha256": "d54f9563099c25107c294c20859b20a39e4b8d63bab26284f439fbc84ae0d31d",
+      "size": 40879,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/176.png"
+    },
+    {
+      "rel_path": "playboy/177.png",
+      "sha256": "250da7ac633d3f936eacfd39deddcf36082af4347effbf70cb6a020aebcf0be7",
+      "size": 44920,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/177.png"
+    },
+    {
+      "rel_path": "playboy/178.png",
+      "sha256": "5fc47db1738524616dbabe83cd612a7fc68982b18b8889a0336fe7e839a08c12",
+      "size": 39007,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/178.png"
+    },
+    {
+      "rel_path": "playboy/179.png",
+      "sha256": "8d35557dc8f1f218319ab96f9b009fc022a84b879b537bc12358a183b6b05239",
+      "size": 43643,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/179.png"
+    },
+    {
+      "rel_path": "playboy/18.png",
+      "sha256": "99af1f0c1b7e2ae340b223704411b6efaa4606a98bd9b2ee78f9d94505a0b8cc",
+      "size": 30338,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/18.png"
+    },
+    {
+      "rel_path": "playboy/180.png",
+      "sha256": "2982581e0e4275f64dee5e86d761577188ae877c291407d779a92e3302675215",
+      "size": 29688,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/180.png"
+    },
+    {
+      "rel_path": "playboy/181.png",
+      "sha256": "5bc7fa48abe204769ed99e2a639902cc186590936b0e3050e02f3554ee4c58ad",
+      "size": 43033,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/181.png"
+    },
+    {
+      "rel_path": "playboy/182.png",
+      "sha256": "8cfa22e604dd251f1afd024499345e48d4e97521830882ad6dd97758905b6f82",
+      "size": 44196,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/182.png"
+    },
+    {
+      "rel_path": "playboy/183.png",
+      "sha256": "470a173ffedff17623cb6b36e6ef80e4312239f1913a67aca957882403a09f39",
+      "size": 39757,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/183.png"
+    },
+    {
+      "rel_path": "playboy/184.png",
+      "sha256": "2cbb834f77ed6817fa66aca06b062ace97fa459063e98fb7dc4496b30c76c582",
+      "size": 42241,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/184.png"
+    },
+    {
+      "rel_path": "playboy/185.png",
+      "sha256": "256c59d91b601d51c9be1a5772ccd482e321d563d1b478fba7fc606fc45c6587",
+      "size": 40679,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/185.png"
+    },
+    {
+      "rel_path": "playboy/186.png",
+      "sha256": "2eff9c6b717c36ad52bdb873779a8f1cec6048750272b18fba4279a40ebbb730",
+      "size": 42172,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/186.png"
+    },
+    {
+      "rel_path": "playboy/187.png",
+      "sha256": "c82155fd2a748586f6d62c053dfcdfaa1282e9ff86ddad5b823bc59fceb91617",
+      "size": 48501,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/187.png"
+    },
+    {
+      "rel_path": "playboy/188.png",
+      "sha256": "70284132860dbf67edd4f59f4408c5c3ac72acc8b8c326b39e6636758613f73d",
+      "size": 50844,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/188.png"
+    },
+    {
+      "rel_path": "playboy/189.png",
+      "sha256": "4e3a1707960ef98ebaa3c90131a5e831ac0590cf6ee2094a158ac7589b94f19b",
+      "size": 38538,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/189.png"
+    },
+    {
+      "rel_path": "playboy/19.png",
+      "sha256": "ce60e7c5bfb1f8323bb09b9fddec962bb4488ab26fee6a852537fce75795a367",
+      "size": 40260,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/19.png"
+    },
+    {
+      "rel_path": "playboy/190.png",
+      "sha256": "2b628bda51924133e237e7c0d3a8970e599570821de6a0eda5d82e241f6af8a0",
+      "size": 34043,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/190.png"
+    },
+    {
+      "rel_path": "playboy/191.png",
+      "sha256": "8bd03a60a465fe0ee39773b064f649f5eccb6b25b0b1225df20e7745c7c92e96",
+      "size": 34165,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/191.png"
+    },
+    {
+      "rel_path": "playboy/192.png",
+      "sha256": "b99134b3cc3cd42f090dd3ee02c3f07e780508454f9c45e310862fcb504a4e12",
+      "size": 41390,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/192.png"
+    },
+    {
+      "rel_path": "playboy/193.png",
+      "sha256": "5c0b7357913efd1062bfae3174b5cefe7a97ba833374f5748be0ea69db7b9c02",
+      "size": 38666,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/193.png"
+    },
+    {
+      "rel_path": "playboy/194.png",
+      "sha256": "07eb9b1d337ea10d75a8d480f102af4c1aef1be15d1933ab556f1263e557d256",
+      "size": 44617,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/194.png"
+    },
+    {
+      "rel_path": "playboy/195.png",
+      "sha256": "ef5ea9ce92fac289c1943be26fd30dca7c1924ff058e96bda4ee8ecee632c2a0",
+      "size": 54406,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/195.png"
+    },
+    {
+      "rel_path": "playboy/196.png",
+      "sha256": "051ae73fddf4bafa1c1e0b6ad712c96ad0c22b05d19eaff90ef079675b646949",
+      "size": 46802,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/196.png"
+    },
+    {
+      "rel_path": "playboy/197.png",
+      "sha256": "038ed33521aef1eb11fdd0f0b57dc990c91a788e2be05ba18d3ff7c10aab3100",
+      "size": 50920,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/197.png"
+    },
+    {
+      "rel_path": "playboy/198.png",
+      "sha256": "7450c8e4040ecf2948507408e4822368d39d7a935c9eabf50767b235e4c4f70e",
+      "size": 40065,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/198.png"
+    },
+    {
+      "rel_path": "playboy/199.png",
+      "sha256": "c0d7a1c40f545e81513d0371be3294ea2745f4a015a889195fe4c3d9434be8cb",
+      "size": 44406,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/199.png"
+    },
+    {
+      "rel_path": "playboy/2.png",
+      "sha256": "dad2115aa1a29128860083c1b9ebf4694a9ff4ca39a5e4d2238b07525e11492a",
+      "size": 35767,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/2.png"
+    },
+    {
+      "rel_path": "playboy/20.png",
+      "sha256": "cb6f3f103a693914e7533e77d20dfe4c9c1cebafd0e6f28a9ecf5a5271482e10",
+      "size": 39651,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/20.png"
+    },
+    {
+      "rel_path": "playboy/200.png",
+      "sha256": "10c324727425324a5577484a0b5f6fcc9bbe931977a0b6c6ffcee583e6839ef8",
+      "size": 44281,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/200.png"
+    },
+    {
+      "rel_path": "playboy/201.png",
+      "sha256": "dcd1bbaea8d1183037fb6ca0ff79eacc197f60fb19a56371561ff727aaf3fdd6",
+      "size": 47485,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/201.png"
+    },
+    {
+      "rel_path": "playboy/202.png",
+      "sha256": "c8c2e8a3f1e1a2e3db9b01a7049d204845deb63349bacbbe9f388d538fec10fa",
+      "size": 52944,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/202.png"
+    },
+    {
+      "rel_path": "playboy/203.png",
+      "sha256": "e4c7e52b3b73ade1a7bd5f8c5ecf095103cc3b9d3a3822c0a959097f6c1b1182",
+      "size": 29950,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/203.png"
+    },
+    {
+      "rel_path": "playboy/204.png",
+      "sha256": "6c6396885dae59d1d9977e36f19700c3080298e65c86c99e6c88e8491e1ee6b6",
+      "size": 33270,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/204.png"
+    },
+    {
+      "rel_path": "playboy/205.png",
+      "sha256": "3d994b1ad0ce17e89673cecbedc958ca9a4809981e54ade06b9675050335f4a9",
+      "size": 29217,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/205.png"
+    },
+    {
+      "rel_path": "playboy/206.png",
+      "sha256": "6014a1289700ddc26d9d31b791ca338d410391da67790eba0fea66c55155eb5e",
+      "size": 47431,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/206.png"
+    },
+    {
+      "rel_path": "playboy/207.png",
+      "sha256": "1422e795b316302e35d47a6bbf97b1b9cc062c49435c17eefd615a6b809f9637",
+      "size": 40435,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/207.png"
+    },
+    {
+      "rel_path": "playboy/208.png",
+      "sha256": "796876b648a4f137d12b7bfff8d8de37532a2ddc11ca2bd286eead7d5b97a698",
+      "size": 30498,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/208.png"
+    },
+    {
+      "rel_path": "playboy/209.png",
+      "sha256": "47a6858567ac0343a7bdc55ce0f88d120b9982d32937e3ca23b6e062381b7b33",
+      "size": 36723,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/209.png"
+    },
+    {
+      "rel_path": "playboy/21.png",
+      "sha256": "217ce322a0eff900f088d704fc5348620711ad82bd0fb6e8942a1c49b3f1ffc2",
+      "size": 44854,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/21.png"
+    },
+    {
+      "rel_path": "playboy/210.png",
+      "sha256": "8a3e47294fc64007ffa948cf57b0ac83a4ccf0699ab9cd760be3d0dd28acedd8",
+      "size": 40368,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/210.png"
+    },
+    {
+      "rel_path": "playboy/211.png",
+      "sha256": "e22a24404557c0878e4f121d05af91358ecd258f91324dab6752eaae852782a9",
+      "size": 57895,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/211.png"
+    },
+    {
+      "rel_path": "playboy/212.png",
+      "sha256": "1da508a5f56a977a00d8a545019d76143d6793055a0a630f1565649d91fdf0a9",
+      "size": 42504,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/212.png"
+    },
+    {
+      "rel_path": "playboy/213.png",
+      "sha256": "399fdf36f65c618c1a51bbad458d4fcb75be75df88ee71b0e4bb5b27b2514d75",
+      "size": 36935,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/213.png"
+    },
+    {
+      "rel_path": "playboy/214.png",
+      "sha256": "d13929a3a4c0c25018d8dfc7bc2dd9031db567dc61f11816da1ec2f27f31d832",
+      "size": 45986,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/214.png"
+    },
+    {
+      "rel_path": "playboy/215.png",
+      "sha256": "bddede8d9e3936e4dd0b5060832d70a936f0eba2fdbaf9b19716582eabcf8ecb",
+      "size": 36478,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/215.png"
+    },
+    {
+      "rel_path": "playboy/216.png",
+      "sha256": "cd733bb11e15f1d23af0cbe44c4692b896c0e6969050f2ef8e7c939ba77e857a",
+      "size": 43510,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/216.png"
+    },
+    {
+      "rel_path": "playboy/217.png",
+      "sha256": "c59bfdfd9dd0cdc87a92c397400413a44909da00e3e0ceccc8340da92b017c81",
+      "size": 51476,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/217.png"
+    },
+    {
+      "rel_path": "playboy/218.png",
+      "sha256": "07e481a672669c522043a2dca9baf56f5b7ab308a47ea52a693596c22a9707a0",
+      "size": 27791,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/218.png"
+    },
+    {
+      "rel_path": "playboy/219.png",
+      "sha256": "cc33d078d2719ac96fd9bf2479a1b0df258aa9acf401d93e9fd5eb0946705787",
+      "size": 41305,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/219.png"
+    },
+    {
+      "rel_path": "playboy/22.png",
+      "sha256": "d402a9cc7717779506f07c0a717611211a9c2dc7b804b7c8136b64ab6330c257",
+      "size": 40374,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/22.png"
+    },
+    {
+      "rel_path": "playboy/220.png",
+      "sha256": "9406ccdb87eca19e226404813617748acf2d88823d551182989ef82d3555c8a5",
+      "size": 39287,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/220.png"
+    },
+    {
+      "rel_path": "playboy/221.png",
+      "sha256": "11b13b4230d5888037a6c4cf6cfb386cd0c187789f2306421d5325b0bdbafb1b",
+      "size": 50102,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/221.png"
+    },
+    {
+      "rel_path": "playboy/222.png",
+      "sha256": "88fa2e3f4841297ae055ef70ec44b370af6281a15400ca6f21eb398effd050b5",
+      "size": 32558,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/222.png"
+    },
+    {
+      "rel_path": "playboy/223.png",
+      "sha256": "6d012389404795a4e5633f44f9d029b5f4886585eafbf146bd7f7520e511afef",
+      "size": 48774,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/223.png"
+    },
+    {
+      "rel_path": "playboy/224.png",
+      "sha256": "872094b0ea6cd84572a0e1ca6a61e0df341681cd27b2dcd746387388dd9710d4",
+      "size": 57809,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/224.png"
+    },
+    {
+      "rel_path": "playboy/225.png",
+      "sha256": "8d120c4f81cc9af70d9addb52c6be431d54bbb3eaef08255fe05d1306164cb08",
+      "size": 48614,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/225.png"
+    },
+    {
+      "rel_path": "playboy/226.png",
+      "sha256": "88da7f4a34d905ba1cbe4ba817829e7895cf06b89499a13a5e1dfdb547b07afd",
+      "size": 32166,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/226.png"
+    },
+    {
+      "rel_path": "playboy/227.png",
+      "sha256": "f412a8a355860eb605654c9fee82680fcf571511dcfc1a15e7ca65cd1b6d00b8",
+      "size": 44276,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/227.png"
+    },
+    {
+      "rel_path": "playboy/228.png",
+      "sha256": "571317d012ac9e938e4a7da067c8b3c629f139edb33e14cc41014a00552546e7",
+      "size": 25454,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/228.png"
+    },
+    {
+      "rel_path": "playboy/229.png",
+      "sha256": "f07c9e2d722057b8169455986b8ebe0ffd998497ef76e555a37c6630f5ea1144",
+      "size": 47884,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/229.png"
+    },
+    {
+      "rel_path": "playboy/23.png",
+      "sha256": "811fb1f59b6e4ad1568bcf441a3783b099ac62f2112a3f515caecdc31604de9c",
+      "size": 38246,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/23.png"
+    },
+    {
+      "rel_path": "playboy/230.png",
+      "sha256": "a303ab6ee2f1274cca8cc4f8ba6e5d6e2b3a66e83a0355db0a0986c9ff037d53",
+      "size": 39878,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/230.png"
+    },
+    {
+      "rel_path": "playboy/231.png",
+      "sha256": "0c99a8e05006545f3a7d93b849200a68eeaa4f487579484dd3c86c260a52c2b5",
+      "size": 42925,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/231.png"
+    },
+    {
+      "rel_path": "playboy/232.png",
+      "sha256": "cc9a4f8cbb72cd8eae19f7c8b7598c1020fce774751d6b18bf1c6e7704fa4dd1",
+      "size": 54975,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/232.png"
+    },
+    {
+      "rel_path": "playboy/233.png",
+      "sha256": "db6cd9059cdbeadc725448a8091e85cdf314b74bd408863aeec630248b4d5c96",
+      "size": 38571,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/233.png"
+    },
+    {
+      "rel_path": "playboy/234.png",
+      "sha256": "ee88dce11f38c5c8d177e00ce5c8ad881f3a1c608121d1f7d77d331225575ae1",
+      "size": 44945,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/234.png"
+    },
+    {
+      "rel_path": "playboy/235.png",
+      "sha256": "d7c6d19e80012067d96eaf9912467fad868e0271f1001f2d784f64190032ec77",
+      "size": 38636,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/235.png"
+    },
+    {
+      "rel_path": "playboy/236.png",
+      "sha256": "48a280fbed035f5e8962f3157408ed6f919e6acaca280daf2597b9869cb0b2e6",
+      "size": 53040,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/236.png"
+    },
+    {
+      "rel_path": "playboy/237.png",
+      "sha256": "89efe0ae16006475ea3912552282de9225256e3b68e408bb92b20025a9d2e96a",
+      "size": 33690,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/237.png"
+    },
+    {
+      "rel_path": "playboy/238.png",
+      "sha256": "3168d2e4ddd0020896b37b109de7bb340eab032281f37fd2fbb8e0e9a60edec0",
+      "size": 37378,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/238.png"
+    },
+    {
+      "rel_path": "playboy/239.png",
+      "sha256": "920fef54a305e2fda0b2e3a68f5c735c6f2207eea0c1717941d9188c62c9158c",
+      "size": 45970,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/239.png"
+    },
+    {
+      "rel_path": "playboy/24.png",
+      "sha256": "2b93286f1d92af2e837f1cc0d7929b63dc3da9eda153b395553edb6172151529",
+      "size": 50367,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/24.png"
+    },
+    {
+      "rel_path": "playboy/240.png",
+      "sha256": "ae31498f618fc79eb1f31ec7278aff91002090685e1c7cf77705d25df1d4b023",
+      "size": 47534,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/240.png"
+    },
+    {
+      "rel_path": "playboy/241.png",
+      "sha256": "533fb24231d1bfdf1cf45cabe20e6a09cc14fe270d5666f370bba1c753f9c354",
+      "size": 48894,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/241.png"
+    },
+    {
+      "rel_path": "playboy/242.png",
+      "sha256": "a34cad2e1848db73780287e2645cd6a1934dd9b13e0691a6b8118425e955cd9d",
+      "size": 50525,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/242.png"
+    },
+    {
+      "rel_path": "playboy/243.png",
+      "sha256": "b070ee0bcb29344c2247e9379259f282647de469912b603e7575c26497a08519",
+      "size": 46203,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/243.png"
+    },
+    {
+      "rel_path": "playboy/244.png",
+      "sha256": "245250b0d7b26d4554820294e0583d39df81bdf81964829527d9ef991975107e",
+      "size": 40265,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/244.png"
+    },
+    {
+      "rel_path": "playboy/245.png",
+      "sha256": "89938640fcacf51f15fd9ff8d7c40fa03f2bcaa219839d1fa254ded0b2ac2a2a",
+      "size": 60710,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/245.png"
+    },
+    {
+      "rel_path": "playboy/246.png",
+      "sha256": "bcaa12065be26158747bd62069a1bb9328a776aeb49103b53c85ae28d739d412",
+      "size": 44452,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/246.png"
+    },
+    {
+      "rel_path": "playboy/247.png",
+      "sha256": "b5cf539264fc34601e659b561bb9d727a0d7456495f3127793749f66384ca81b",
+      "size": 35635,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/247.png"
+    },
+    {
+      "rel_path": "playboy/248.png",
+      "sha256": "4458f5c903e3d3483d5eb302ccaecee900846f539f64ccdf0cc8aed93deb263d",
+      "size": 37397,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/248.png"
+    },
+    {
+      "rel_path": "playboy/249.png",
+      "sha256": "047bf789a54d545e55ccb087c93143e65291949d450c15de6bf2b5c426a79bed",
+      "size": 50522,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/249.png"
+    },
+    {
+      "rel_path": "playboy/25.png",
+      "sha256": "c61380d81d826113273838df372e4dde6bc278799b56036803f52301ef72b7ef",
+      "size": 49770,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/25.png"
+    },
+    {
+      "rel_path": "playboy/250.png",
+      "sha256": "7b669be0e4b4024d6092558f6c26712c25099808344d37a207df9ee1958211a5",
+      "size": 43404,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/250.png"
+    },
+    {
+      "rel_path": "playboy/251.png",
+      "sha256": "d692fffb75a48f8fd7a445aca5f7a6308f595dba5f66f347a974908b999ae032",
+      "size": 41115,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/251.png"
+    },
+    {
+      "rel_path": "playboy/252.png",
+      "sha256": "17ab76dd2c4261323210fee4fee37155d54ac13edc1b3bdc437a17c5d491f950",
+      "size": 45337,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/252.png"
+    },
+    {
+      "rel_path": "playboy/253.png",
+      "sha256": "9e8efb91475fab64f24665efb0971b060688016f66f26d7979acfd5684d9cfe7",
+      "size": 40723,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/253.png"
+    },
+    {
+      "rel_path": "playboy/254.png",
+      "sha256": "37ca3bf704d3ec7f7da32a5d4c932da7b47fe330ea6631ab79a184453306c9f5",
+      "size": 38866,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/254.png"
+    },
+    {
+      "rel_path": "playboy/255.png",
+      "sha256": "08f44d1f97a05eeb3df9ac55e70c000323e8e44b5e58d1961a8d641eeb37464f",
+      "size": 35264,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/255.png"
+    },
+    {
+      "rel_path": "playboy/256.png",
+      "sha256": "75a202a7c2c1b89fb178ae2744516ccd2ef7b85847b2919e9dd8dc10bb3a8048",
+      "size": 48986,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/256.png"
+    },
+    {
+      "rel_path": "playboy/257.png",
+      "sha256": "a15eefd775efc5cde2161d9d8049830a79e881a0a1fe8f703365669c244a65c1",
+      "size": 41882,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/257.png"
+    },
+    {
+      "rel_path": "playboy/258.png",
+      "sha256": "31d389bed96ef1e9333eeac8ff3fcf1bc8debaa1b40e6d0ce4f99e7e78438a27",
+      "size": 51470,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/258.png"
+    },
+    {
+      "rel_path": "playboy/259.png",
+      "sha256": "356f2edc0b5701f0d7d5777c629d364c5877541c30cea258225b3d3482737919",
+      "size": 37598,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/259.png"
+    },
+    {
+      "rel_path": "playboy/26.png",
+      "sha256": "0f198bd8a594854db954ddab0d87c49fb5cbee0eebb383bdb3648d7b81f7d41f",
+      "size": 41897,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/26.png"
+    },
+    {
+      "rel_path": "playboy/260.png",
+      "sha256": "5f8ab6e3d2423025a891031557698d7645ebe23dab517fd36d2a450d7879ee56",
+      "size": 47128,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/260.png"
+    },
+    {
+      "rel_path": "playboy/261.png",
+      "sha256": "1bb1554e53a6d5b25ea76a24ea8a97bb0ac56eccdf0fc6a490c0ca165ce825b1",
+      "size": 31030,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/261.png"
+    },
+    {
+      "rel_path": "playboy/262.png",
+      "sha256": "75e60dd22abe0f7500e8818181048e31e9241f41161234b90570ccfdafca39c6",
+      "size": 37636,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/262.png"
+    },
+    {
+      "rel_path": "playboy/263.png",
+      "sha256": "047bf789a54d545e55ccb087c93143e65291949d450c15de6bf2b5c426a79bed",
+      "size": 50522,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/263.png"
+    },
+    {
+      "rel_path": "playboy/264.png",
+      "sha256": "48e9102495bff05f787fa6824ae9319e19ca3890c303154d20d0acf96da78114",
+      "size": 46652,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/264.png"
+    },
+    {
+      "rel_path": "playboy/265.png",
+      "sha256": "6ad0e7469f4939b6c2ad1bb0ab03b0ba9976b217a6515bdc1917ad6b25617a11",
+      "size": 41559,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/265.png"
+    },
+    {
+      "rel_path": "playboy/266.png",
+      "sha256": "e85f7f4ad1cb9a2f2cdabac9a570209d9a0de13a6de67aed0fd256b7987521de",
+      "size": 53561,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/266.png"
+    },
+    {
+      "rel_path": "playboy/267.png",
+      "sha256": "51551014b919ba11bc504714043bda32002b18aa20decad2b8d529e9ee6d4ccd",
+      "size": 42131,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/267.png"
+    },
+    {
+      "rel_path": "playboy/268.png",
+      "sha256": "8dccca54ec3a33762c6b207ca68317ec69a056ddffe8e72838b70601ad9ce334",
+      "size": 28579,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/268.png"
+    },
+    {
+      "rel_path": "playboy/269.png",
+      "sha256": "cf08b7edba2189bc8070718e32123a4dc3f72e9c6052c6a2b05c3189e6359d5c",
+      "size": 41061,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/269.png"
+    },
+    {
+      "rel_path": "playboy/27.png",
+      "sha256": "f412a8a355860eb605654c9fee82680fcf571511dcfc1a15e7ca65cd1b6d00b8",
+      "size": 44276,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/27.png"
+    },
+    {
+      "rel_path": "playboy/270.png",
+      "sha256": "e2ec10c40762f2e8ffe07f78e2241b38a059bd6a319eafefb67dae727c148e1b",
+      "size": 37520,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/270.png"
+    },
+    {
+      "rel_path": "playboy/271.png",
+      "sha256": "521a299bc780d31eefcba4718317fb751f7f7b6b0b6a522bca6c466857387744",
+      "size": 39842,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/271.png"
+    },
+    {
+      "rel_path": "playboy/272.png",
+      "sha256": "f9ebc7aac7951af1258e03d7bc6373421ebf9264c426bf11f968d59140b39e52",
+      "size": 43144,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/272.png"
+    },
+    {
+      "rel_path": "playboy/273.png",
+      "sha256": "3296852f425428732f742071fcf985771bc57a808a0c31b210badd0b17bb9abf",
+      "size": 53525,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/273.png"
+    },
+    {
+      "rel_path": "playboy/28.png",
+      "sha256": "a7b9397027731312d3a30dc0488f544335a6c74820f0d092be6e521c7a39c73f",
+      "size": 34642,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/28.png"
+    },
+    {
+      "rel_path": "playboy/29.png",
+      "sha256": "f9f288d35bcf5427593be18f2abab83c3ee2b7037d9e2bfd51b51b49acb54543",
+      "size": 47285,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/29.png"
+    },
+    {
+      "rel_path": "playboy/3.png",
+      "sha256": "309e2f53cc200f8b654f7cb0d3c807e6439b5e06ffe2de4d2e5811f690f1ff35",
+      "size": 38492,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/3.png"
+    },
+    {
+      "rel_path": "playboy/30.png",
+      "sha256": "e85f7f4ad1cb9a2f2cdabac9a570209d9a0de13a6de67aed0fd256b7987521de",
+      "size": 53561,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/30.png"
+    },
+    {
+      "rel_path": "playboy/31.png",
+      "sha256": "1065717e8200def84cd3df2038e88b245f717a544ed7878b1394270b3c286232",
+      "size": 28729,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/31.png"
+    },
+    {
+      "rel_path": "playboy/32.png",
+      "sha256": "537e577cad945ee7a8ea6ecaac2e16db99706049fe73d26a288e70f4c1dc362a",
+      "size": 37043,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/32.png"
+    },
+    {
+      "rel_path": "playboy/33.png",
+      "sha256": "1c74c46af990ad949d619d966dc3f51f526527c71fc91329ef591812031f89e4",
+      "size": 40990,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/33.png"
+    },
+    {
+      "rel_path": "playboy/34.png",
+      "sha256": "99cdf20dc7ee63bd63a1c8e852c7d250830b87bc61404863c2f9a16e47198b10",
+      "size": 46834,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/34.png"
+    },
+    {
+      "rel_path": "playboy/35.png",
+      "sha256": "d2f5f9478dce0dba5ad0e141ea316faf4823a37cd5c925ffe1a0aff3bd57b3b8",
+      "size": 39647,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/35.png"
+    },
+    {
+      "rel_path": "playboy/36.png",
+      "sha256": "cb2e91750f66923aaefd81f493a6e1ba4a04c2723d31168e7048e77306db773b",
+      "size": 23934,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/36.png"
+    },
+    {
+      "rel_path": "playboy/37.png",
+      "sha256": "dbf8ade6774995c2211ef5a3577c2de90e93e49da32deff3d9de21c434c88878",
+      "size": 49964,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/37.png"
+    },
+    {
+      "rel_path": "playboy/38.png",
+      "sha256": "99a2fdd52c32f7b71fde81b1e8a24ca4c69c1a8447f64f89841f028697c21207",
+      "size": 43251,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/38.png"
+    },
+    {
+      "rel_path": "playboy/39.png",
+      "sha256": "83220d913aebbed5d6bc686290957ae1fb939897bcb21678b41db5b394baaaed",
+      "size": 38107,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/39.png"
+    },
+    {
+      "rel_path": "playboy/4.png",
+      "sha256": "000cbb06f8dc9e4e4cde318e80b50800e2ac6a87e249871695f5942f59db9375",
+      "size": 44804,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/4.png"
+    },
+    {
+      "rel_path": "playboy/40.png",
+      "sha256": "d7df13bd5a5d34dd2030e5325e1db3839c420f1f16ebb80986387accf3220ea9",
+      "size": 57793,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/40.png"
+    },
+    {
+      "rel_path": "playboy/41.png",
+      "sha256": "7450b86d8d5a80c5696d4c717fc29299ea728d8bab988c185f2b96c363d60d8c",
+      "size": 37071,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/41.png"
+    },
+    {
+      "rel_path": "playboy/42.png",
+      "sha256": "afe97195b6d46e76cb86f4165ecfea4c413f148d0cfa591e74cbbba30d3acb68",
+      "size": 37579,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/42.png"
+    },
+    {
+      "rel_path": "playboy/43.png",
+      "sha256": "663fdec365e308aa1e300a132c74f927cada64ff199a08d9172655d961cc6ba3",
+      "size": 66688,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/43.png"
+    },
+    {
+      "rel_path": "playboy/44.png",
+      "sha256": "97bcc8b194d84f34fa35ac59e6b63c2f18c366164a523b8f9060badf6922f67a",
+      "size": 38550,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/44.png"
+    },
+    {
+      "rel_path": "playboy/45.png",
+      "sha256": "ca2e21ff587b065bddc87bffd7707ee01616de60313787ba5a6a8c72760f1945",
+      "size": 42161,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/45.png"
+    },
+    {
+      "rel_path": "playboy/46.png",
+      "sha256": "8c7382dcd18e77648e781c8e6a5a283d8ebdc3d3f41faea32d87fbdaf761d4d2",
+      "size": 35343,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/46.png"
+    },
+    {
+      "rel_path": "playboy/47.png",
+      "sha256": "d56f6ca4e43ab2cba8c7e065ee612a4491ab2c673f9bc1545764a72ad6ac84ec",
+      "size": 45511,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/47.png"
+    },
+    {
+      "rel_path": "playboy/48.png",
+      "sha256": "4fdb342978ef0bd167915937d64d8c6b40d391cc4a720fb6eeb8ec9367d45d15",
+      "size": 40533,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/48.png"
+    },
+    {
+      "rel_path": "playboy/49.png",
+      "sha256": "a1a1c81f2b8f4562c7e4c5e528e314dd21f7a9b68eb5c976d8c069ee208aa047",
+      "size": 44264,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/49.png"
+    },
+    {
+      "rel_path": "playboy/5.png",
+      "sha256": "477f5c6c984d530d58d45f859da3de887d9f99a9df8b280aaaddabe8109f851b",
+      "size": 34689,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/5.png"
+    },
+    {
+      "rel_path": "playboy/50.png",
+      "sha256": "688f32a09a573f2c9cf809c9a2da0a8c2698411052a8fcf8db3a3c9431290f05",
+      "size": 38769,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/50.png"
+    },
+    {
+      "rel_path": "playboy/51.png",
+      "sha256": "7b20e3a94e22a98094cb1058a49e26818450a5bbe768b82e85830f5f3e8092a1",
+      "size": 37744,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/51.png"
+    },
+    {
+      "rel_path": "playboy/52.png",
+      "sha256": "f4176278922e31b1f5ee6bf90f5c9405caf1ad7a46f4ecc36a1428779b7cbc3c",
+      "size": 46303,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/52.png"
+    },
+    {
+      "rel_path": "playboy/53.png",
+      "sha256": "3851b26d33f79e971689247e7d9642c4741a821f6b405c4cfe6d71a5bdfbd7ae",
+      "size": 45114,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/53.png"
+    },
+    {
+      "rel_path": "playboy/54.png",
+      "sha256": "981a458f112f142e1d2ea76de9d02adbe8b19ef6902e88ce5e71ab9f80b54781",
+      "size": 43922,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/54.png"
+    },
+    {
+      "rel_path": "playboy/55.png",
+      "sha256": "a3104dbb22105f402f6752ad121cb792e5f7b3d6e6b33ebda2d8e3058d746046",
+      "size": 44920,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/55.png"
+    },
+    {
+      "rel_path": "playboy/56.png",
+      "sha256": "b99134b3cc3cd42f090dd3ee02c3f07e780508454f9c45e310862fcb504a4e12",
+      "size": 41390,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/56.png"
+    },
+    {
+      "rel_path": "playboy/57.png",
+      "sha256": "6a66b06f25674e0d0fd877896594af11470bc967f733e79cbabb6f3f84df25c6",
+      "size": 37321,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/57.png"
+    },
+    {
+      "rel_path": "playboy/58.png",
+      "sha256": "3b12fe668db4449d151c9ed2bd54c839ba8e77d5074f525cc02f38744c052c7c",
+      "size": 37026,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/58.png"
+    },
+    {
+      "rel_path": "playboy/59.png",
+      "sha256": "635f89e4888c0dee2d1c222fd85e62a00970e674b8cde71fa657176942131683",
+      "size": 48491,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/59.png"
+    },
+    {
+      "rel_path": "playboy/6.png",
+      "sha256": "7fc4d86673a09d939ae2cd0e3c27e2102b8250e011ebdf96768dc26703df647a",
+      "size": 61055,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/6.png"
+    },
+    {
+      "rel_path": "playboy/60.png",
+      "sha256": "0a78bc3c3f53b4083239912fed1040c4da29266390d8ba2800c93d8de7f3b2f4",
+      "size": 37537,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/60.png"
+    },
+    {
+      "rel_path": "playboy/61.png",
+      "sha256": "3897adeda152a8b14e03777752901275903471c1dc6bbee6d00fbd007bbf485c",
+      "size": 40762,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/61.png"
+    },
+    {
+      "rel_path": "playboy/62.png",
+      "sha256": "47a6858567ac0343a7bdc55ce0f88d120b9982d32937e3ca23b6e062381b7b33",
+      "size": 36723,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/62.png"
+    },
+    {
+      "rel_path": "playboy/63.png",
+      "sha256": "c25be3ea94fd8f75a03f57a7f1540308f3507f90d33a7993dd3ba7bcd0558fa5",
+      "size": 33637,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/63.png"
+    },
+    {
+      "rel_path": "playboy/64.png",
+      "sha256": "5d552ed4733b6090f6a1171d66520f16173041e657ba827fb57e38de1591f6f5",
+      "size": 55306,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/64.png"
+    },
+    {
+      "rel_path": "playboy/65.png",
+      "sha256": "f101d29a69d2c0a82a850bde95de6cc867215b4380e9f2e1711cf92119c28999",
+      "size": 62382,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/65.png"
+    },
+    {
+      "rel_path": "playboy/66.png",
+      "sha256": "e256644a5a3613e0d6e0c10765c123918fcea8078dc50e679a385e8b501b22c5",
+      "size": 44895,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/66.png"
+    },
+    {
+      "rel_path": "playboy/67.png",
+      "sha256": "beb19038afb9fb76b9936c9bd4d7ff950640aa64b44a9a8a1daf40c24dcb59ec",
+      "size": 47516,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/67.png"
+    },
+    {
+      "rel_path": "playboy/68.png",
+      "sha256": "eb959cb93f3a0035d9e6684be93c4a950d1a29b3ffbfb33535c408c02d69b13a",
+      "size": 41057,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/68.png"
+    },
+    {
+      "rel_path": "playboy/69.png",
+      "sha256": "c4f6d5754294daa1bc832b34253399fab77313b8b033ab242726c914a0af09c0",
+      "size": 40893,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/69.png"
+    },
+    {
+      "rel_path": "playboy/7.png",
+      "sha256": "78a7c5825be315a2c9452b118bbecc65a9aa315769e7c084ecb403ef302c8101",
+      "size": 42480,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/7.png"
+    },
+    {
+      "rel_path": "playboy/70.png",
+      "sha256": "a8764dd36ca6793cdf37024bb6d98760af3abc320d23d2db849edbe28686b1a9",
+      "size": 51223,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/70.png"
+    },
+    {
+      "rel_path": "playboy/71.png",
+      "sha256": "e76111d98391c38322976c67eafcf1e678517f17b36eeb768f273beb4ec8d9db",
+      "size": 35996,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/71.png"
+    },
+    {
+      "rel_path": "playboy/72.png",
+      "sha256": "3c29454bfc116b5e5c0a3b3330f28dbd2a2690b1b1ef6ad41f2320c2acf32e32",
+      "size": 34306,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/72.png"
+    },
+    {
+      "rel_path": "playboy/73.png",
+      "sha256": "d2f5f9478dce0dba5ad0e141ea316faf4823a37cd5c925ffe1a0aff3bd57b3b8",
+      "size": 39647,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/73.png"
+    },
+    {
+      "rel_path": "playboy/74.png",
+      "sha256": "78f7a67a72cf98193d647c9cb4e322625104bd0a98ecfc525cd38792a47d2e21",
+      "size": 70784,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/74.png"
+    },
+    {
+      "rel_path": "playboy/75.png",
+      "sha256": "9406ccdb87eca19e226404813617748acf2d88823d551182989ef82d3555c8a5",
+      "size": 39287,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/75.png"
+    },
+    {
+      "rel_path": "playboy/76.png",
+      "sha256": "5c0b7357913efd1062bfae3174b5cefe7a97ba833374f5748be0ea69db7b9c02",
+      "size": 38666,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/76.png"
+    },
+    {
+      "rel_path": "playboy/77.png",
+      "sha256": "914cbb9152dd579b06d9910aad7c777d600c43f1228b377889d9d6b40e8aed72",
+      "size": 61450,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/77.png"
+    },
+    {
+      "rel_path": "playboy/78.png",
+      "sha256": "8547fa5079c77605f4db19efe64574c761e893cee30808461b6647b2623cefad",
+      "size": 43455,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/78.png"
+    },
+    {
+      "rel_path": "playboy/79.png",
+      "sha256": "9cdc8a4f76bd92f2799fc79fda2a76b4c887011566ffec4f804f028340473fbe",
+      "size": 63147,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/79.png"
+    },
+    {
+      "rel_path": "playboy/8.png",
+      "sha256": "6ad0e7469f4939b6c2ad1bb0ab03b0ba9976b217a6515bdc1917ad6b25617a11",
+      "size": 41559,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/8.png"
+    },
+    {
+      "rel_path": "playboy/80.png",
+      "sha256": "3aad5851b03d05019bde9e1e55658cb429ca4a1ebb3dd7de553f5723444870a3",
+      "size": 43117,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/80.png"
+    },
+    {
+      "rel_path": "playboy/81.png",
+      "sha256": "b9004b98701ecd5f55e46672c5ab9787bc261398393201a6b8c7b4562a95b2f0",
+      "size": 43145,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/81.png"
+    },
+    {
+      "rel_path": "playboy/82.png",
+      "sha256": "d837e848870a59c2ed9d5f85c7c85a3e5b629a86a0c53aca98b2393336533901",
+      "size": 30885,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/82.png"
+    },
+    {
+      "rel_path": "playboy/83.png",
+      "sha256": "32e5ce08b97ad8a6e3a7cac2bb120d21ff0cf46456537838fcf9438b70463249",
+      "size": 44128,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/83.png"
+    },
+    {
+      "rel_path": "playboy/84.png",
+      "sha256": "7ee8b55392f974df38d17076c66dab5eed3e246dfc33717dd551ef94a54580a9",
+      "size": 49073,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/84.png"
+    },
+    {
+      "rel_path": "playboy/85.png",
+      "sha256": "2e625f90efd56a8c07ad767cf93a936863b8a7d5f6691bcbc65bb87c08a45a07",
+      "size": 34153,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/85.png"
+    },
+    {
+      "rel_path": "playboy/86.png",
+      "sha256": "a5693909c035d5eb8238acd29b8625618a8df8d2975ae6bd1e33155c39d723b5",
+      "size": 38057,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/86.png"
+    },
+    {
+      "rel_path": "playboy/87.png",
+      "sha256": "624aa173e7a66cce13106d62c067c34aeaf4086a3799dc912912ae62d64e9608",
+      "size": 43163,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/87.png"
+    },
+    {
+      "rel_path": "playboy/88.png",
+      "sha256": "bb8f8b2e6be9869659b0ed5fc0ac3cf28e1a24f10e4ee2f4d37d40df699b174d",
+      "size": 50361,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/88.png"
+    },
+    {
+      "rel_path": "playboy/89.png",
+      "sha256": "f61fe1ae304e3c3127a96c88400c13a988b03b1d982adddca5e8bee2aca6a67d",
+      "size": 40564,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/89.png"
+    },
+    {
+      "rel_path": "playboy/9.png",
+      "sha256": "24aca3e4744f547ce4ca6b5ceab83adce9857e91eedff3ee95443bc74c4d24bc",
+      "size": 52238,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/9.png"
+    },
+    {
+      "rel_path": "playboy/90.png",
+      "sha256": "a2768067f0a9d6a917d5dcd4f75a99cce87f1d265f0ee54b2c31028c04e5aa36",
+      "size": 35268,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/90.png"
+    },
+    {
+      "rel_path": "playboy/91.png",
+      "sha256": "1f0bb3812a26d3d46d92870a9ffb1eb76a1294d2b8d6e6584d219c029a8f3c83",
+      "size": 43586,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/91.png"
+    },
+    {
+      "rel_path": "playboy/92.png",
+      "sha256": "978ab7d6fedc490191cb22e7f4955091265abfd5c9cb63d4ec918cf25d8d98ed",
+      "size": 36705,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/92.png"
+    },
+    {
+      "rel_path": "playboy/93.png",
+      "sha256": "673bf535ef77b389ddc30a135b554a884b96080a5d60e72c3b848ab8417eaa1d",
+      "size": 40471,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/93.png"
+    },
+    {
+      "rel_path": "playboy/94.png",
+      "sha256": "ac15dc0e214fde5eac461c7037c79e5d541e8f085176435bf262377b4cc81091",
+      "size": 50054,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/94.png"
+    },
+    {
+      "rel_path": "playboy/95.png",
+      "sha256": "5f8e1616342d127e0f9a7bf13b0a205e425c21342bae8365420633bebfcf5e49",
+      "size": 41204,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/95.png"
+    },
+    {
+      "rel_path": "playboy/96.png",
+      "sha256": "76051c0f8693b7e3956bdbc3c7bbcec6d2b88d9064f50d9bf4c98f56d9095eeb",
+      "size": 32923,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/96.png"
+    },
+    {
+      "rel_path": "playboy/97.png",
+      "sha256": "4907bd904c276c7946ffc19f25333b717351934c0d2f4d7bd2465ba7a9e12525",
+      "size": 18327,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/97.png"
+    },
+    {
+      "rel_path": "playboy/98.png",
+      "sha256": "845f5d4e962ae1931f461922d3cd6b607bfac4e761a016b3428dbf88bf432962",
+      "size": 45593,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/98.png"
+    },
+    {
+      "rel_path": "playboy/99.png",
+      "sha256": "5de23d2671cf82b124f240a191d43b468eaaf51a0e861822edbb2a1e83bc85be",
+      "size": 34029,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/playboy/99.png"
+    },
+    {
+      "rel_path": "ui/__init__.py",
+      "sha256": "691344da94b9d271405facbefab48630d630873f74e60d7881177a8380689585",
+      "size": 13,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/__init__.py"
+    },
+    {
+      "rel_path": "ui/add_detail_dialog.py",
+      "sha256": "8089eed8fcf4f2df0bbd144b2c97b5a26003c2f9b42e2d4d7ce21d76bfbd48ae",
+      "size": 6427,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/add_detail_dialog.py"
+    },
+    {
+      "rel_path": "ui/create_cut_dialog.py",
+      "sha256": "eb07d07a7765800bd05a4eaf414752d32abca8991ade589395d5b3a270790f86",
+      "size": 87251,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/create_cut_dialog.py"
+    },
+    {
+      "rel_path": "ui/cut_commit.py",
+      "sha256": "7166af1b749531eef47edeb91439bb4e24ad80783b3f077f7d6b46cde291fc77",
+      "size": 14518,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/cut_commit.py"
+    },
+    {
+      "rel_path": "ui/cut_material_session_dialog.py",
+      "sha256": "75572546dce840a74c6665fde83691588defadefd29c65483a8c3beb46327b7d",
+      "size": 100753,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/cut_material_session_dialog.py"
+    },
+    {
+      "rel_path": "ui/cut_sequence_canvas.py",
+      "sha256": "2b7a9dee9be11ec8076da11e03f5238f921a5f7c9d4ce2c2f2514bfa6a56387a",
+      "size": 21898,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/cut_sequence_canvas.py"
+    },
+    {
+      "rel_path": "ui/cut_sequence_dialog.py",
+      "sha256": "06dd47b7a3ba2731a637be399280f3f05af65670b3407fcc4fa90690dc87bf12",
+      "size": 8342,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/cut_sequence_dialog.py"
+    },
+    {
+      "rel_path": "ui/cutting_canvas.py",
+      "sha256": "be6520057693f4b45ae4b86e6fdaca0cf1b9ca67857d0652fad7e86bcce5eea4",
+      "size": 35819,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/cutting_canvas.py"
+    },
+    {
+      "rel_path": "ui/cutting_result_dialog.py",
+      "sha256": "d42bee6f5b5030e33b69ef8efe9e8fdc17880681e23d6ad5ac31db9625096834",
+      "size": 52250,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/cutting_result_dialog.py"
+    },
+    {
+      "rel_path": "ui/layout_edit_dialog.py",
+      "sha256": "853a410f7437d781f121c8f5b3d4143978d863443c2fb7c4cd8e5ff410c3d3df",
+      "size": 159363,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/layout_edit_dialog.py"
+    },
+    {
+      "rel_path": "ui/main_window.py",
+      "sha256": "a0e9a137bde1eb116cf4fabbe86bd38ede6876b1f59c975b2020ef231ec823d2",
+      "size": 14584,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/main_window.py"
+    },
+    {
+      "rel_path": "ui/new_client_dialog.py",
+      "sha256": "a2dca8ddb8165fe85bcbd866655beea013e2bdd6889b4969be228dfd8917d0bc",
+      "size": 34477,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/new_client_dialog.py"
+    },
+    {
+      "rel_path": "ui/ready_orders_dialog.py",
+      "sha256": "42d8988d07fef8d566a4afdbdb7d29d78559501e1db0fd3d9db92f0b79a8ee12",
+      "size": 7556,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/ready_orders_dialog.py"
+    },
+    {
+      "rel_path": "ui/search_dialog.py",
+      "sha256": "8ea7616293b4eed856d2bc1e6dc473cf6deacc95e1ee628426a9d0ae8ce60454",
+      "size": 6053,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/search_dialog.py"
+    },
+    {
+      "rel_path": "ui/settings_dialog.py",
+      "sha256": "e0072f58fbeaf05e08b9f38f6ebb4e3d78b626d06665ef81dcf3e19d210fd8c2",
+      "size": 4940,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/settings_dialog.py"
+    },
+    {
+      "rel_path": "ui/status_board.py",
+      "sha256": "bc7a95e1b74730a92e5909d4096a4a6716ec0caf09fd89e3473bcfc9cb04df44",
+      "size": 17346,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/status_board.py"
+    },
+    {
+      "rel_path": "ui/table_editor.py",
+      "sha256": "eedd0a9ca94d2228755ce731448d61a18ff5d4e84fb47e730916eeabc86a02e0",
+      "size": 16349,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/table_editor.py"
+    },
+    {
+      "rel_path": "ui/training_dialog.py",
+      "sha256": "a5f45ad37f04ad162c04f9de51f0b5570ab6ccf25022cc2285ff5bfdfab85e01",
+      "size": 18478,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/training_dialog.py"
+    },
+    {
+      "rel_path": "ui/warehouse_dialog.py",
+      "sha256": "7c7548f958cb69253d5a7d2c858e88275144aca567a5f801532e1549a71354f6",
+      "size": 171291,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/ui/warehouse_dialog.py"
+    },
+    {
+      "rel_path": "window_branding.py",
+      "sha256": "8ce48404d9036fc038eb3fe4b2f2e83be51fb8108ffd1875a468d4ef4eb9c008",
+      "size": 2928,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.3/files/window_branding.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.0.22"
+}
