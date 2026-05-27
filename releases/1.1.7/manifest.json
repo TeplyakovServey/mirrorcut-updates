@@ -1,0 +1,115 @@
+{
+  "version": "1.1.7",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/delivery_calc.py",
+      "sha256": "5628b208511d9e0e11419d1059df11686af1b1d6b8f9e747227d8457461420c3",
+      "size": 2999,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/calc/delivery_calc.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/delivery_geo.py",
+      "sha256": "29f51d2f4160a331f4243c45efafcd6a03d349835c532c74c1571bcc3db713b0",
+      "size": 7563,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/calc/delivery_geo.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/order_summary.py",
+      "sha256": "d2b576b1184a5dbd27e96f6a74514adf2d888b65db4e5864fc36a289b10a9ea0",
+      "size": 22270,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/calc/order_summary.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/delivery_dialog.py",
+      "sha256": "6820ed25d1106ff9bb4c7f84abcafd288038d07032a6849d555f41739d8409e6",
+      "size": 21214,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/elements/delivery_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/zamer_tile.py",
+      "sha256": "1324c8cc273e24d1f6833682875694a4cb6197c2e0fcb61f7b461123839c39a9",
+      "size": 44248,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/elements/zamer_tile.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/sql/migrations/014_montazh_price_2000.sql",
+      "sha256": "052cc20944e92cef5e568b734abc28ebb9c63a69619b4173c519bc2d71d2f536",
+      "size": 227,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/sql/migrations/014_montazh_price_2000.sql"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/xx.py",
+      "sha256": "bf27898085ee9feb2232ff09ef835da32f02e25e8c7a2013d3bdd10f1ee7b88a",
+      "size": 90003,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/BLOCKS/xx.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/blocks_bundle.py",
+      "sha256": "69c5ebe84e29824d2b1b69dc346fccad462d002ecf7806a0cb9615bca0e489dd",
+      "size": 31898,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/logic/blocks_bundle.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/run.py",
+      "sha256": "47a2d04a5c1f0d85c026657a4448f0e5ccce81a92c1d731e8552c6055abc4586",
+      "size": 9170,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/run.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/facade_order_dialog.py",
+      "sha256": "59f5d492ba3836951bfb2719ea3252ef6f9cbc80b22eebbbfffc659f54f24dbc",
+      "size": 220184,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/facade_order_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_order_overview_dialog.py",
+      "sha256": "e9ff43bc9b15a0156cca661fc11afe8eb36d6d956d0e244dfe707a9f4aa194f9",
+      "size": 131715,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/glass_order_overview_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_prices_tab.py",
+      "sha256": "fcfc9061dd42642c37abe30eab7b1b75e901bb5dd1eafbe2a4ccffd7f190c4de",
+      "size": 16025,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/glass_prices_tab.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/main_window.py",
+      "sha256": "bced67ab319766a2d3afce6c0804667b0e5e19229cf890bff6a6aa25f054638e",
+      "size": 254642,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/main_window.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/prices_dialog.py",
+      "sha256": "2d5f86112d4bdcef19bab81259810bd443b3c9963553b92792aa7335dc4c71b3",
+      "size": 38428,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/prices_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/release_notes_preview_dialog.py",
+      "sha256": "2ddf6ef4a75340412efaa35cb0c2eb858bf650e56b72d2588bc1eac249f01fce",
+      "size": 3982,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/release_notes_preview_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/rich_release_notes_editor.py",
+      "sha256": "ea7de7db6ba8d40366decdb9a4dc4073868583a76bf27cc2ce4670ffcc9b1696",
+      "size": 24629,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/ui/rich_release_notes_editor.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/update_client.py",
+      "sha256": "9b59a28d4f0c849b563e55498d8667fd97f58e2408915f7109f2f79ea0897290",
+      "size": 38758,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/MAIN_PROJECT/update_client.py"
+    },
+    {
+      "rel_path": "window_branding.py",
+      "sha256": "47cae2d404480637d6dc7f767f7540e6bfbc9adce0714b5e59b4d84bd147ecc1",
+      "size": 4554,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.7/files/window_branding.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.6"
+}
