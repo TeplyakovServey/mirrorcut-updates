@@ -1,0 +1,2 @@
+# Служебные списки путей (collect_release_paths_since_baseline.py > releases_X.Y.Z_paths.txt)
+releases_*_paths.txt
