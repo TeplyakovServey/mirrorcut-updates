@@ -1,0 +1,43 @@
+{
+  "version": "1.1.13",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/calc/delivery_geo.py",
+      "sha256": "d9693357ed3a810a6d9af48b57b11202f8641d82168d152e3c67621a350006fe",
+      "size": 7573,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.13/files/MAIN_PROJECT/BLOCKS/calc/delivery_geo.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/BLOCKS/elements/delivery_dialog.py",
+      "sha256": "32f8a65349457a5a9f60741993ffa6d2ee65c75e1f35a14d158a946b089f8d46",
+      "size": 26550,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.13/files/MAIN_PROJECT/BLOCKS/elements/delivery_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/delta_import_overlay.py",
+      "sha256": "ced5c00f550cb17c3b24aa4b5b6298263b3c5d803009c6f3f93e868982b40f23",
+      "size": 5968,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.13/files/MAIN_PROJECT/delta_import_overlay.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/delivery_estimate_dialog.py",
+      "sha256": "35af1754064faa680ac251ee7a91805cc91b670afec00533f54ad8054c4b8fdf",
+      "size": 6465,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.13/files/MAIN_PROJECT/ui/delivery_estimate_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/main_window.py",
+      "sha256": "a94cc2d9210a6587f3838252ef6f12987c73f7a31857ad846e3327425528185d",
+      "size": 255345,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.13/files/MAIN_PROJECT/ui/main_window.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/update_client.py",
+      "sha256": "7e7a47be3416e0d4ffb4ca7b5a29b7a755e00dfcf64dc0d30b7b528fc0e153b0",
+      "size": 42169,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.13/files/MAIN_PROJECT/update_client.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.12"
+}
