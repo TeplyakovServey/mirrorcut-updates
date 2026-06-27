@@ -1,0 +1,19 @@
+{
+  "version": "1.1.15",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/delta_import_overlay.py",
+      "sha256": "9e4c3a80c69ee4a1e34dfa6173b642b0c66bc56708e20cc79f08ff37a735df06",
+      "size": 5992,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.15/files/MAIN_PROJECT/delta_import_overlay.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_mirror_calc_dialog.py",
+      "sha256": "64bce517bd61ddb12515e7ebee79deb609769d5259b251f0e7f0ee19816e9049",
+      "size": 32229,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.15/files/MAIN_PROJECT/ui/glass_mirror_calc_dialog.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.12"
+}
