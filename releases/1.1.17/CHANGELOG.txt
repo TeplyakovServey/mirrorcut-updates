@@ -1,0 +1,13 @@
+1.1.17
+
+Экспорт G-файлов для стола PRAKTIK / Optima (Optima Opty-Way):
+- кнопка «G файл» в сводке по изделиям (ZIP всех листов раскроя, имя архива по id заказа);
+- генератор logic/g_export.py (P3000/P400x, толщина, подписи изделий).
+
+Сводка заказа и производство:
+- доработки glass_order_overview_dialog, main_window, production_instructions.
+
+Статистика:
+- client_statistics_dialog, supplier_statistics_dialog, supplier_card_dialog, plotly_stats_html.
+
+Требуется min_client 1.1.12 (полная сборка exe с delta overlay).

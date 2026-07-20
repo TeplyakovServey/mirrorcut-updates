@@ -1,0 +1,61 @@
+{
+  "version": "1.1.17",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/logic/g_export.py",
+      "sha256": "cd41d280dc1a3547c6c4994bde98c812736e09f2eba47ad4f2101780489b9d68",
+      "size": 10814,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/logic/g_export.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/logic/production_instructions.py",
+      "sha256": "46de81535a6f31ce3d6ae12880761e53e96e22fe2efc19c451ae7d3e7999e897",
+      "size": 125770,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/logic/production_instructions.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/client_statistics_dialog.py",
+      "sha256": "e43dc0d5b5c6ce2b5de67d0bb125f2e501d6c1d8834f03aad77a0801b320dde9",
+      "size": 27433,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/ui/client_statistics_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/glass_order_overview_dialog.py",
+      "sha256": "3f0538154c407c7482469eb70f4e3721482afe12857ee172fdcc49ac4f01904c",
+      "size": 132839,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/ui/glass_order_overview_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/main_window.py",
+      "sha256": "5d4fd29a1c2aae89864b24566647c94e4c9f4929e7ec5dc43442ed71e95c503a",
+      "size": 280707,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/ui/main_window.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/plotly_stats_html.py",
+      "sha256": "c86607c109c00066afd7d66d464a673f7eae3179b9c3695a743d59969eeac182",
+      "size": 6918,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/ui/plotly_stats_html.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/supplier_card_dialog.py",
+      "sha256": "374da676fe09d0477316af8256471f32ad72da09184013a478f2941640531222",
+      "size": 8319,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/ui/supplier_card_dialog.py"
+    },
+    {
+      "rel_path": "MAIN_PROJECT/ui/supplier_statistics_dialog.py",
+      "sha256": "ad252e92087ce1a1b59845a8d05eb46958d657e889392edb8596545db26ed918",
+      "size": 28246,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/MAIN_PROJECT/ui/supplier_statistics_dialog.py"
+    },
+    {
+      "rel_path": "logic/g_export.py",
+      "sha256": "cd41d280dc1a3547c6c4994bde98c812736e09f2eba47ad4f2101780489b9d68",
+      "size": 10814,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.17/files/logic/g_export.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.12"
+}
