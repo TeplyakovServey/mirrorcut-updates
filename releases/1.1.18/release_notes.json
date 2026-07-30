@@ -1,0 +1,5 @@
+{
+  "version": "1.1.18",
+  "canvas_bg": "#1e3a5f",
+  "html": "<!DOCTYPE html><html lang=\"ru\"><head><meta charset=\"utf-8\"/></head><body style=\"font-family:Segoe UI,Arial,sans-serif;color:#e8e8e8;background:#1e3a5f;padding:16px;line-height:1.5\"><h2 style=\"color:#93c5fd;margin:0 0 12px\">Обновление 1.1.18</h2><ul style=\"margin:0;padding-left:20px\"><li><strong>G-файлы Optima/PRAKTIK:</strong> формат P400 как в эталоне, координаты Y от нижнего края листа.</li><li>Отходы подписываются <strong>ОТХОД</strong> в кодировке cp1251 (без «иероглифов» на столе).</li><li>Номера изделий — группы (__1, __2…), без ФИО клиента в P400.</li><li>Резервная генерация G-code по границам зон, если в раскрое нет cut_segments.</li></ul><p style=\"margin:12px 0 0;color:#94a3b8;font-size:0.9rem\">После обновления перезапустите программу и заново скачайте G-файл по заказу.</p></body></html>"
+}

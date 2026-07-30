@@ -1,0 +1,19 @@
+{
+  "version": "1.1.18",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/logic/g_export.py",
+      "sha256": "e9f62af89eeebcbb9aef5014b511aecdaae8d04161a3f8b892441766110dfc5d",
+      "size": 17303,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.18/files/MAIN_PROJECT/logic/g_export.py"
+    },
+    {
+      "rel_path": "logic/g_export.py",
+      "sha256": "e9f62af89eeebcbb9aef5014b511aecdaae8d04161a3f8b892441766110dfc5d",
+      "size": 17303,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.18/files/logic/g_export.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.12"
+}
