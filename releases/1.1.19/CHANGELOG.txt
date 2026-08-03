@@ -1,0 +1,1 @@
+1.1.19: G-export fixes - scheme cuts only, K labels, OTHOD cp1251 without number.

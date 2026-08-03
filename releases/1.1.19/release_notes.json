@@ -1,0 +1,5 @@
+{
+  "version": "1.1.19",
+  "canvas_bg": "#1e3a5f",
+  "html": "<!DOCTYPE html><html lang=\"ru\"><head><meta charset=\"utf-8\"/></head><body style=\"font-family:Segoe UI,Arial,sans-serif;color:#e8e8e8;background:#1e3a5f;padding:16px;line-height:1.5\"><h2 style=\"color:#93c5fd;margin:0 0 12px\">Обновление 1.1.19</h2><ul style=\"margin:0;padding-left:20px\"><li><strong>G-файлы:</strong> резы только как на схеме раскроя (без лишних линий).</li><li>Номера изделий как на этикетках — <strong>K5</strong> → <strong>__5</strong>, остаток — номер со склада.</li><li>Отход: подпись <strong>ОТХОД</strong> в cp1251, без номера.</li></ul><p style=\"margin:12px 0 0;color:#94a3b8;font-size:0.9rem\">После обновления заново скачайте G-файл по заказу.</p></body></html>"
+}
