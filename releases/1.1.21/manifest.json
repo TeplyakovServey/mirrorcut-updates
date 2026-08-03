@@ -1,0 +1,13 @@
+{
+  "version": "1.1.21",
+  "files": [
+    {
+      "rel_path": "MAIN_PROJECT/update_client.py",
+      "sha256": "17a068d1a0f31861fbcac4ea3250f9a7a33799d0332dc1308d0abc4c6692f10e",
+      "size": 50885,
+      "url": "https://raw.githubusercontent.com/TeplyakovServey/mirrorcut-updates/main/releases/1.1.21/files/MAIN_PROJECT/update_client.py"
+    }
+  ],
+  "delete": [],
+  "min_client": "1.1.12"
+}
